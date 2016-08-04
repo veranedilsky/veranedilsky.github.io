@@ -623,7 +623,7 @@ article#contact{
 
 ul.icons {
 	float:center;
-	width:auto;
+    width:100%;
 	}
 ul.icons li{
 	text-align:center;
@@ -776,7 +776,7 @@ ul.navigation{
 
 footer{
 	background-color:#3e4444;
-	height:80px;
+	height:150px;
 	color:#fff;
 	text-align:center;
 	font-family:'Dosis', sans-serif;
@@ -866,7 +866,8 @@ a.name{
 	}
 
 b{ 
-	color:#FB565A;
+	color:#acdb1c;
+	font-size:1.4em;
 }
 
 #social{
@@ -879,7 +880,15 @@ h1{
 	text-align:center;
 	font-size:2.5em;
 	color:#3e4444;
-	vertical-align: center;
+}
+
+h1.about{
+	text-align:left;
+	margin: auto;
+	width: 85%;
+	font-size:1.8em;
+	color:#3e4444;
+	margin-bottom: 15px;
 }
 
 
@@ -892,7 +901,7 @@ h2{
 }
 
 .wrap-text{
-margin:50px auto 50px auto;
+margin:0px auto 0px auto;
 width:100%;
 }
 
@@ -901,7 +910,7 @@ article p{
 	margin:auto;
 	font-family:'Open Sans', sans-serif;
 	font-size:1em;
-	font-weight:300;
+	font-weight:400;
 	text-align: left;
 }
 
@@ -922,32 +931,17 @@ article button{
 article form {
     width:auto;
     text-align: center;
-    margin: 20px auto 0px auto;
-}
-
-article form.contact {
-    width: 400px;
-    text-align: left;
-    margin: 25px auto 0px auto;
+    margin-top:15px;
 }
 
 
-article#icons{
-	text-align:center;
-	background-color:#fff;
-
-}
-
-h1.icons{
-	text-align:left;
-	color:#acdb1c;
-	font-size:4em;
-	font-family: 'Glyphter';
+article#icons {
+    display: none;
 }
 
 article#resume{
 	color:white;
-	height:100px;
+	height:70px;
 	background-color:#f9f9f9;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -956,7 +950,7 @@ article#resume{
 
 article#work{
 	color:white;
-	height:100px;
+	height:70px;
 	background-color:#f9f9f9;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -969,17 +963,11 @@ article#thumbnails{
 }
 
 article#hire{
-	color:white;
-	height:100px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+    display: none;
 }
 
 article#contact{
-	background-color:#fff;
-	color:#333333;
+    display: none;
 }
 
 
@@ -1217,25 +1205,7 @@ article#contact{
 }
 
 
-
-
-ul.icons {
-	float:left;
-	width:85%;
 	}
-ul.icons li{
-	height:auto;
-	margin:auto 20px;
-	display: inline-block;
-}
-
-ul.icons li p{
-
-}
-
-
-	}
-
 
 	
 	

@@ -572,7 +572,7 @@ display: inline-block;
 
 
 footer{
-	background-color:#3e4444;
+	background-color:#202020;
 	height:200px;
 	color:#fff;
 	text-align:center;
@@ -690,6 +690,12 @@ b.sub{
 	color:#3e4444;
 }
 
+b.copyright{
+	text-align:center;
+	font-family: 'Dosis';
+	font-size:.6em;
+	color:#3e4444;
+}
 
 b{ 
 	color:#acdb1c;
@@ -732,6 +738,11 @@ article button{
 	border-radius: 20px 20px 20px 20px;
 }
 
+
+article button:hover{
+	color:#acdb1c;
+}
+
 article form {
     width:auto;
     text-align: center;
@@ -762,6 +773,7 @@ h1.icons{
 footer h1.icons{
 	text-align:center;
 	padding-top:60px;
+	padding-bottom: 30px;
 	color:#fff;
 	font-size:1.6em;
 	font-family:'THIN';
@@ -879,6 +891,18 @@ article#thumbnails li{
     height: 250px;
 }
 
+
+hr {
+    display: block;
+    width: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
 
 
 

@@ -556,7 +556,7 @@ display: inline-block;
 
 
 footer{
-	background-color:#3e4444;
+	background-color:#202020;
 	height:150px;
 	color:#fff;
 	text-align:center;
@@ -691,8 +691,8 @@ h2{
 }
 
 .wrap-text{
-margin:70px auto 70px auto;
-width:100%;
+margin:150px auto 150px auto;
+width:60%;
 }
 
 article p{
@@ -793,6 +793,17 @@ article#contact{
 	color:#333333;
 }
 
+#hires-image{
+	width: auto;
+	float: left;
+
+}
+
+#image-info{
+	width: auto;
+	float: right;
+
+}
 
 
 .resume{
@@ -861,6 +872,19 @@ article#thumbnails ul {
 	width: 80%;
 	margin:0 auto;
 }
+
+
+hr {
+    display: block;
+    width: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
+
 
 
 	}

@@ -754,45 +754,6 @@ footer h1.icons{
 }
 
 
-article#resume{
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#work{
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#thumbnails{
-	background-color:#fff;
-	color:red;
-}
-
-article#hire{
-	display: block;
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#contact{
-	display: block;
-	background-color:#fff;
-	color:#333333;
-}
-
 #hires-image{
 	width: auto;
 	float: left;
@@ -1158,46 +1119,6 @@ footer h1.icons{
 	color:color:#fff;
 	font-size:1.6em;
 	font-family:'THIN';
-}
-
-
-article#resume{
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#work{
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#thumbnails{
-	background-color:#fff;
-	color:red;
-}
-
-article#hire{
-	display: block;
-	color:white;
-	height:175px;
-	background-color:#f9f9f9;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-article#contact{
-	display: block;
-	background-color:#fff;
-	color:#333333;
 }
 
 

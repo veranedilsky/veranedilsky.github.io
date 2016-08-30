@@ -459,8 +459,6 @@ article#contact{
 .fa{
 	font-size:2em;
 }
-
-	
 	
 
 article#thumbnails ul {
@@ -851,26 +849,24 @@ article#contact{
 .fa{
 	font-size:2em;
 }
-	}
 	
-	
-
-
 
 ul.icons {
 	float:center;
     width:100%;
 	}
+
 ul.icons li{
-	width:280px;
-	margin:auto 35px;
+	width:230px;
+	font-size: .9em;
+	margin:auto 15px;
 	display: inline-block;
 	vertical-align: text-top;
 }
 
 ul.icons li p{
 	width:100%;
-	padding-top: 55px;
+	padding-top: 35px;
 }
 
 
@@ -1122,8 +1118,6 @@ width:100%;
 }
 
 article p{
-	width:40%!important;
-	margin:auto;
 	font-family:'Open Sans', sans-serif;
 	font-size:1em;
 	font-weight:400;
@@ -1251,9 +1245,6 @@ article#contact{
 .fa{
 	font-size:2em;
 }
-	
-	
-
 
 
 
@@ -1261,11 +1252,12 @@ ul.icons {
 	float:center;
     width:100%;
 	}
+
 ul.icons li{
 	text-align:center;
-	width:300px;
+	width:260px;
 	height:auto;
-	margin:auto 20px;
+	margin:auto 35px;
 	display: inline-block;
 	vertical-align: text-top;
 }
@@ -1274,10 +1266,6 @@ ul.icons li p{
 	width:100%;
 	padding-top: 35px;
 }
-
-
-
- 
 
 article#thumbnails ul {
 	list-style: none;

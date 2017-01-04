@@ -142,7 +142,7 @@ header,nav,article,aside,footer {
 display: block;
 width: 100%;}
 header div.header-name {
-font-family:'Open Sans', sans-serif;
+font-family:'Lato', serif;
 font-weight: 400;
 font-size:2em;}
 /* ----- END MOBILE FIRST STYLES -------- */
@@ -312,11 +312,9 @@ a{
 }
 
 a.name{
-	color:#fff;
+	color:#3e4444;
 	font-size:2em;
 	}
-
-
 
 #social{
 	padding-top:20px;
@@ -360,7 +358,7 @@ width:100%;
 article p{
 	width:85%;
 	margin:auto;
-	font-family:'Open Sans', sans-serif;
+	font-family:'Lato', serif;
 	font-size:1em;
 	font-weight:400;
 	text-align: left;
@@ -389,15 +387,6 @@ article form {
 
 article#icons {
     display: none;
-}
-
-
-footer h1.icons a{
-	text-align:center;
-	padding-top:60px;
-	color:#fff;
-	font-size:1.1em;
-	font-family:'THIN';
 }
 
 
@@ -554,20 +543,6 @@ display: inline-block;
 #menu {display: none !important;}
 	
 
-
-footer{
-	background-color:#202020;
-	height:150px;
-	color:#fff;
-	text-align:center;
-	font-family:'Dosis', sans-serif;
-	font-size:1.5em;
-	position: fixed;
-	bottom: 0;	
-
-}
-	
-
 p.copyright{	
 	padding:20px 0;
 	
@@ -653,20 +628,12 @@ a.name{
 	text-align:center;
 }
 
-
-h1{
-	text-align:center;
-	font-size:3.3em;
-	color:#3e4444;
-}
-
 h1.about{
-	width: 500px;
-	text-align:left;
-	margin:auto;
-	font-size:1.9em;
-	color:#acdb1c;
-	margin-bottom: 15px;
+	width: 100%;
+    text-align: left;
+    font-size: 2.2em;
+    color: #acdb1c;
+    margin-bottom: 15px;
 }
 
 b.sub{
@@ -696,11 +663,11 @@ width:60%;
 }
 
 article p{
-	width:500px;
-	margin:auto;
-	font-family:'Open Sans', sans-serif;
-	font-size:1em;
-	font-weight:400;
+	width:350px;
+	margin-left:0;
+	font-family:'Lato', serif;
+	font-size:1.2em;
+	font-weight:300;
 	text-align: left;
 }
 
@@ -755,53 +722,22 @@ footer h1.icons{
 
 
 #hires-image{
-	width: auto;
+	margin-top:50px;
+	width: 50%;
 	float: left;
 
 }
 
 #image-info{
-	width: auto;
+	margin-top:50px;
+	width: 50%;
 	float: right;
-
+	height:auto;
 }
-
-
-.resume{
-	padding:15px;
-}
-	
-
-#tswname {
-    display: block;
-    width: 100%;
-    height: 32px;
-    margin: 5px auto 20px auto;
-}
-
-#tswemail{
-    display: block;
-    width: 100%;
-    height: 32px;
-    margin: 5px auto 20px auto;
-}
-
-#tswcomments{
-    display: block;
-    width: 100%;
-    height: 70px;
-    margin: 5px auto 20px auto;
-}
-
 
 .fa{
 	font-size:2em;
 }
-	}
-	
-	
-
-
 
 ul.icons {
 	float:center;
@@ -898,18 +834,10 @@ nav ul li{
 }
 
 nav ul li a{
-	color:#fff;
+	color:#3e4444;
 	text-decoration:none;
 	display:inline-block;
 }
-
-
-nav ul li a:{
-	color:#fff;
-	text-decoration:none;
-	display:inline-block;
-}
-
 
 
 nav ul li:hover {
@@ -917,14 +845,11 @@ background-color: transparent;
 
 }
 
-
 nav ul li a:hover {
-color: #Fff;
-
+color:#acdb1c;
 text-decoration: underline;
 text-decoration-color:;
 }
-
 
 ul.navigation {
 display: inline-block;
@@ -932,77 +857,35 @@ display: inline-block;
 #menu {display: none !important;}
 	
 
-
-footer{
-	background-color:#3e4444;
-	height:150px;
-	color:#fff;
-	text-align:center;
-	font-family:'Dosis', sans-serif;
-	font-size:1.5em;	
-
-}
-	
-
-p.copyright{	
-	padding:20px 0;
-	
-	}
-	
 article{
 	overflow: hidden;
 	width:100%;
-	margin: 0px auto 0px auto;
-	padding: 60px 0px 60px 0px;
 }
-		
 
+
+footer{
+	background-color:#3e4444;
+	height:100px;
+	color:#fff;
+	text-align:center;
+	font-family:'Dosis', sans-serif;
+	font-size:1.5em;
+	padding-top:20px;	
+
+}
+
+b.copyright{
+	color:white;
+	font-family:'Lato', serif;
+	font-size:.5em;
+	}
+	
+			
 img {
     height: auto;
     max-width: 100%;
 }
 
-header{
-
-	/*100vh*/
-	margin-top:0px;
-	background:transparent;
-	background-repeat:no-repeat;
-	height:700px;
-	text-align:center;
-	background-position: center;
-	background-size:cover;
-	position:relative;
-	
-}
-
-
-header p{
-	padding-top:45px;
-	color:#fff;
-	font-size:1.4em;
-	text-align:center;
-	text-transform:;
-	position:absolute;
-    bottom: 100px;
-    margin: 0 auto;
-	width:100%;
-	}
-
-header h1{
-	position:absolute;
-    bottom: 250px;
-	line-height:1.2em;
-	font-weight:400;
-	letter-spacing:0.06em;
-	color:#fff;
-	font-size:2.6em;
-	text-align:center;
-	text-transform:;
-	font-family: 'Dosis', sans-serif;
-	margin: 0 auto;
-	width:100%;
-}
 
 h3{ 
 	font-size:1.3em;
@@ -1020,30 +903,18 @@ a{
 }
 
 a.name{
-	color:#fff;
+	color:#3e4444;
 	font-size:2em;
 	}
 
-#social{
-	padding-top:20px;
-	text-align:center;
-}
-
-
-h1{
-	text-align:center;
-	font-size:3.3em;
-	color:#3e4444;
-}
-
 h1.about{
-	text-align:center;
-	margin: auto;
-	width: 85%;
-	font-size:1.9em;
-	color:#3e4444;
-	margin-bottom: 15px;
+	width: 100%;
+    text-align: left;
+    font-size: 2.2em;
+    color: #acdb1c;
+    margin-bottom: 15px;
 }
+
 
 b{ 
 	color:#acdb1c;
@@ -1058,52 +929,14 @@ h2{
 	color:#acdb1c;
 }
 
-.wrap-text{
-margin:50px auto 50px auto;
-width:100%;
-}
 
 article p{
-	width:40%!important;
-	margin:auto;
-	font-family:'Open Sans', sans-serif;
-	font-size:1em;
-	font-weight:400;
-	text-align: center;
-}
-
-
-article button{
-	color:#3e4444;
-	text-align: center;
-	font-size: 1.1em;
-	width: 145px;
-	height: 45px;
-	background-color:transparent;
-	cursor: pointer !important;
-	border-style: solid;
-	border-color: #acdb1c;
-	border-radius: 20px 20px 20px 20px;
-}
-
-article form {
-    width:auto;
-    text-align: center;
-    margin: 20px auto 0px auto;
-}
-
-article form.contact {
-    width: 400px;
-    text-align: left;
-    margin: 25px auto 0px auto;
-}
-
-
-article#icons{
-	display: block;
-	text-align:center;
-	background-color:#fff;
-
+	width:450px;
+	font-family:'Lato', serif;
+	font-size:1.2em;
+	font-weight:300;
+	text-align: left;
+	margin-left:0px;
 }
 
 h1.icons{
@@ -1113,69 +946,38 @@ h1.icons{
 	font-family:'THIN';
 }
 
-footer h1.icons{
+
+#hires-image{
 	text-align:center;
-	padding-top:60px;
-	color:color:#fff;
-	font-size:1.6em;
-	font-family:'THIN';
+	margin-top:50px;
+	width: 50%;
+	float: left;
+	height:auto;
+
 }
 
-
-
-.resume{
-	padding:15px;
+#image-info{
+	margin-top:50px;
+	width: 50%;
+	float: right;
+	height:auto;
 }
-	
-
-#tswname {
-    display: block;
-    width: 100%;
-    height: 32px;
-    margin: 5px auto 20px auto;
-}
-
-#tswemail{
-    display: block;
-    width: 100%;
-    height: 32px;
-    margin: 5px auto 20px auto;
-}
-
-#tswcomments{
-    display: block;
-    width: 100%;
-    height: 70px;
-    margin: 5px auto 20px auto;
-}
-
 
 .fa{
 	font-size:2em;
 }
 	
+hr {
+    display: block;
+    width: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
 	
-
-
-
-
-ul.icons {
-	float:center;
-    width:100%;
-	}
-ul.icons li{
-	text-align:center;
-	width:300px;
-	height:auto;
-	margin:auto 20px;
-	display: inline-block;
-	vertical-align: text-top;
-}
-
-ul.icons li p{
-	width:100%;
-	padding-top: 35px;
-}
 
  }
 

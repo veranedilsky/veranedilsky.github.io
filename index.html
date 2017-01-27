@@ -12,7 +12,10 @@
 		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
-
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		
+		
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800|Open+Sans:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,700" rel="stylesheet">
@@ -24,12 +27,21 @@
     </head>
     
     <body>
+	
+	
+	
+	
+<a name="header"> </a>
 
-<header data-parallax="scroll" data-image-src="img/header-bg22.jpg">
-     
-   <h1>You and I are a team, there is nothing more important than our success.<hr> </h1>
-       <p>Graphic design & Web design</p>
-        </header>
+<header data-parallax="scroll" data-image-src="img/blur.jpg">
+
+
+<div class="header-text">
+   <h1>Hi there<hr> </h1>
+   <p>Graphic design portfolio</p>
+</div>     
+	   
+</header>
 
 <nav>
 <div class="wrap">
@@ -40,12 +52,11 @@
     	
     <ul class="navigation">
     
-				<li><a href="/w14_eportfolio/nedilsky_vera/index.html">Home</a></li>
-				
-				<li><a href="about.html">About</a></li>
-				<li><a href="resume.html">Work</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				
+				<li class="one"><a href="#header">Home</a></li>
+				<li class="two"><a href="#about-me">About</a></li>
+				<li class="three"><a href="#work">Work</a></li>
+				<li class="four"><a href="#contact">Contact</a></li>
+				<hr class="menu" />
 			</ul>
             </div>
 		</nav>
@@ -54,61 +65,89 @@
 
 
 <article id="icons">
-<div class="wrap-text">
 
-<ul class="icons">
+<div id="column">
+<div id="icon">
 
-<li><h1 class="icons">E</h1><p><b class="sub">Education</b><br>Three awesome years in a graphic and web design program.</p></li>
+<i class="fa fa-cogs fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<b class="sub">EDUCATION</b>
+<p>Three awesome years studying graphic and web design.</p>
 
-<li><h1 class="icons">C</h1><p><b class="sub">Web Design</b><br>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p></li>
-
-<li><h1 class="icons">D</h1><p><b class="sub">Graphic Design</b><br>Branding, packaging, editorial, poster design and more.</p></li>
-
-</ul>
-
-
+</div>
 </div>
 
 
 
+<div id="column">
+<div id="icon">
+
+<i class="fa fa-code fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<b class="sub">WEB DESIGN</b>
+<p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
+
+</div>
+</div>
+
+
+
+<div id="column">
+<div id="icon">
+
+<i class="fa fa-pencil fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<b class="sub">GRAPHIC DESIGN</b>
+<p>Branding, packaging, editorial, poster design and more.</p>
+
+</div>
+</div>
+
+
 </article>
 
 
 
-<article id="resume">
-
-<div class="wrap-text"><h1>Resume</h1>
-
-<hr><form method="get" action="file.doc">
-<button type="submit">Download</button>
-</form>
-     </div>
-</article>
 
 
 <article>
+<a name="about-me"> </a>
 
-<div class="about-left"><br>
+<div class="about-left">
+
+<div id="resume">
+<h1>Resume</h1>
+
+<hr><form method="get" action="veranedilsky-resumeGD.pdf">
+<button type="submit">Download</button>
+</form>
+</div>
+
 </div>
 
 
 <div class="about-right">
-<h1 class="about">Hello, my name is Vera and I am <b>creative</b>  </h1>
+<h1 class="about">About me</h1>
         <p>I’ve always had a creative side to me. As a kid I loved to draw, do arts and crafts, 
 		make up outrageous imagionary stories... over time I started to think of better ways to put 
 		this creativity to use. I started to research web design (what the heck is this HTML and CSS nonesense 
 		they speak of?) and the more I learned, the more I became interested. I started to look into design, 
 		playing with colours and fonts, trying to find ways to use this new skill. When it came time to go to 
 		College and my dad suggested the Graphic Design program, it was a no brainer. Here I am today, this 
-		passion for creativity only grows more and more. Allow me to share my imagination and creativity with you.</p></div>    
+		passion for creativity only grows more and more. Allow me to share my imagination and creativity with you.</p>
+		</div>  
+		  
 </article>
 
 
 
 
 <article id="work">
-<div class="wrap-text"><h1>Work</h1>
-        <hr><h2>Previous Projects</h2></div>       
+<a name="work"> </a>
+
+<div class="work-text">
+<h1 class="work">Work</h1>
+<hr>
+<p class="work">Below you will find a collection of works that I have created either for school projects or for freelance work</p>
+</div>    
+	
 </article>
 
 
@@ -116,73 +155,73 @@
 
 <article id="thumbnails">
 
-<div class="wrap-text">
+<div id="thumbnail"><a href="awareness-poster.html"><img src="thumbs/child-abuse-awareness-poster.jpg" /></a></div>
+<div id="thumbnail"><a href="awareness-poster-boy.html"><img src="thumbs/child-abuse-awareness-poster-boy.jpg" /></a></div>
+<div id="thumbnail"><a href="#"><img src="thumbs/harry-potter-typography-poster.jpg" /></a></div>
+<div id="thumbnail"><a href="#"><img src="thumbs/james-brown-cd-booklet.jpg" /></a></div>
+<div id="thumbnail"><a href="soap-packaging.html"><img src="thumbs/soap-packaging.jpg" /></a></div>
+<div id="thumbnail"><a href="metamorphosis-cover.html"><img src="thumbs/metamorphosis-book-cover.jpg" /></a></div>
+<div id="thumbnail"><a href="pdht-poster.html"><img src="thumbs/pdht-annual-graphics-exchibition-poster.png" /></a></div>
+<div id="thumbnail"><a href="self-portrait.html"><img src="thumbs/self-portrait-illustration.jpg" /></a></div>
+<div id="thumbnail"><a href="tinkerbell-illustration.html"><img src="thumbs/tinkerbell-illustration.png" /></a></div>
+<div id="thumbnail"><a href="typography-valentine.html"><img src="thumbs/typography-valentine-pink.jpg" /></a></div>
+<div id="thumbnail"><a href="wine-bottle.html"><img src="thumbs/wine-bottle-label.jpg" /></a></div>
+<div id="thumbnail"><a href="#"><img src="thumbs/grunge-website-mockup.jpg" /></a></div>
+<div id="thumbnail"><a href="#"><img src="thumbs/infographic.jpg" /></a></div>
+<div id="thumbnail"><a href="pdht-logo.html"><img src="thumbs/pdht-logo.png" /></a></div>
+<div id="thumbnail"><a href="typography-valentine.html"><img src="thumbs/typography-valentine-pink.jpg" /></a></div>
 
-     <ul>
-       <li><a href="awareness-poster.html"><img src="thumbs/child-abuse-awareness-poster.jpg" /></a></li>
-       <li><a href="awareness-poster-boy.html"><img src="thumbs/child-abuse-awareness-poster-boy.jpg" /></a></li>
-       <li><a href="#"><img src="thumbs/harry-potter-typography-poster.jpg" /></a></li>
-       <li><a href="#"><img src="thumbs/james-brown-cd-booklet.jpg" /></a></li>
-       <li><a href="soap-packaging.html"><img src="thumbs/soap-packaging.jpg" /></a></li>
-       <li><a href="metamorphosis-cover.html"><img src="thumbs/metamorphosis-book-cover.jpg" /></a></li>
-       <li><a href="pdht-poster.html"><img src="thumbs/pdht-annual-graphics-exchibition-poster.png" /></a></li>
-       <li><a href="self-portrait.html"><img src="thumbs/self-portrait-illustration.jpg" /></a></li>
-       <li><a href="tinkerbell-illustration.html"><img src="thumbs/tinkerbell-illustration.png" /></a></li>
-       <li><a href="typography-valentine.html"><img src="thumbs/typography-valentine-pink.jpg" /></a></li>
-       <li><a href="wine-bottle.html"><img src="thumbs/wine-bottle-label.jpg" /></a></li>
-       <li><a href="#"><img src="thumbs/grunge-website-mockup.jpg" /></a></li>
-       <li><a href="#"><img src="thumbs/infographic.jpg" /></a></li>
-       <li><a href="pdht-logo.html"><img src="thumbs/pdht-logo.png" /></a></li>
-	   <li><a href="pdht-logo.html"><img src="thumbs/pdht-logo.png" /></a></li>
-     </ul>
-
-     </div>
 </article>
 
 
 
+<div id="contact-info">
 
-<article id="hire">
-<div class="wrap-text"><h1>Hire Me</h1>
-       <hr><h2>Contact Information</h2></div>       
-</article>
+<div id="hire">
+<div class="hire-me"><h1>Hire Me</h1>
+      <hr><h2>Contact Information</h2>  
+	  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+	  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+	  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+
+</div>       
+</div>
 
 
 
 
-<article id="contact">
-<div class="wrap-text">
+<div id="contact">
+<a name="about-me"> </a>
+
+<div class="contact-form">
 
 <p>Interested in working together? <br>Send me an email so we can chat!</p>
-
-
 <form class="contact" action="MAILTO:nedilskyvera@gmail.com" method="post" enctype="text/plain">
 
-<label for="tswname">Name</label>:
+<i class="fa fa-user" aria-hidden="true"></i> <label for="tswname">Name</label>
 <input type="text" name="fullname" id="tswname" size="35" />
 
-<label for="tswemail">Email address</label>:
+<i class="fa fa-envelope-o" aria-hidden="true"></i> <label for="tswemail">Email address</label>
 <input type="text" id="tswemail" name="email" size="35" />
 
-<label for="tswcomments">Comments</label><br />
+<i class="fa fa-commenting-o" aria-hidden="true"></i> <label for="tswcomments">Comments</label>
+<br />
 <textarea rows="15" cols="35" name="comments" id="tswcomments"></textarea>
-
 
 <input type="submit" value="Send" /><br />
 </form>
 
-</div>   
- 
-</article>
+</div>
+</div>
+
+
+</div>
+
+
 
         
 <footer>
-<b class="icons"><a href="https://www.facebook.com/vnedilsky">A</a></b>
-<b class="icons"><a href="https://www.instagram.com/veranedilsky/">B</a></b>
-<b class="icons"><a href="https://ca.linkedin.com/in/vera-nedilsky-b81a768b">C</a></b>
-<br>
-
-<b class="copyright">© 2016 VERA NEDILSKY. ALL RIGHTS RESERVED.</b>
+<b class="copyright">© 2017 VERA NEDILSKY. ALL RIGHTS RESERVED.</b>
 </footer>        
         
         
@@ -231,21 +270,14 @@
 				} 
 				
 				
-				  /*$('header').parallax({imageSrc: 'img/header-bg2.jpg'});*/
+				/*('header').parallax({imageSrc: 'img/header-bg2.jpg'});*/
 				  
-				  
-				  
-				  
+
 				  
 $(window).scroll(function(){
     $("header h1, header p").css("opacity", 1 - $(window).scrollTop() / 450);
   });
 
-/*win.scroll(function(){
-  scrollPosition = win.scrollTop();
-  scrollRatio = 1 - scrollPosition / 300;
-  $(".top").css("opacity", scrollRatio);
-*/
 		  </script>
 
     </body>

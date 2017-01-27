@@ -1,0 +1,804 @@
+
+
+
+
+
+/* ==========================================================================
+Navigation
+========================================================================== */
+
+.wrap {
+	text-align:center;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+/*NAV*/
+.name{
+	display:none;
+
+}
+
+nav{
+	display: none;
+	}
+
+nav ul {
+	float:right;
+	width:auto;
+	}
+nav ul li{
+	text-align:right;
+	width:auto;
+	height:20px;
+	display: inline-block;
+	border-bottom:none;
+	padding:25px 0 20px 40px;
+}
+
+nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+
+
+nav ul li a:{
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+
+
+
+nav ul li:hover {
+background-color: transparent;
+
+}
+
+
+nav ul li a:hover {
+color: #Fff;
+
+text-decoration: underline;
+text-decoration-color:;
+}
+
+
+ul.navigation {
+display: inline-block;
+}
+#menu {display: none;}
+	
+
+
+
+
+footer{
+	background-color:#3e4444;
+	height:160px;
+	color:#fff;
+	text-align:center;
+	font-family:'Dosis', sans-serif;
+	font-size:.9em;	
+
+}
+
+footer h1.icons a{
+	text-align:center;
+	font-family:'THIN';
+}	
+
+p.copyright{	
+	padding:20px 0;
+	
+	}
+	
+article{
+	overflow: hidden;
+	width:100%;
+	margin: 0px auto 0px auto;
+}
+		
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+header{
+
+	/*100vh*/
+	margin-top:0px;
+	background:transparent;
+	background-repeat:no-repeat;
+	height:250px;
+	text-align:center;
+	background-position: center;
+	background-size:cover;
+	position:relative;
+	
+}
+
+
+header p{
+	padding-top:45px;
+	color:#fff;
+	font-size:1.1em;
+	text-align:center;
+	text-transform:;
+	position:absolute;
+    bottom: 30px;
+    margin: 0 auto;
+	width:100%;
+	}
+
+header h1{
+	position:absolute;
+    bottom: 75px;
+	font-weight:400;
+	color:#fff;
+	font-size:1.3em;
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	margin: 0 auto;
+	width:100%;
+}
+
+h3{ 
+	font-size:1.3em;
+	margin-top:15px;
+	color:#acdb1c;
+}
+
+h4{
+	margin-top:10px;
+}
+
+a{
+	color:#acdb1c;
+	text-decoration:none;	
+}
+
+a.name{
+	color:#fff;
+	font-size:2em;
+	}
+
+
+
+#social{
+	padding-top:20px;
+	text-align:center;
+}
+
+
+h1{
+	text-align:center;
+	font-size:2.5em;
+	color:#3e4444;
+	/*#5e6060*/ 
+}
+
+h1.about{
+	text-align:left;
+	margin: auto;
+	width: 85%;
+	font-size:1.8em;
+	color:#3e4444;
+	margin-bottom: 15px;
+}
+
+b{ 
+	color:#acdb1c;
+	font-size:1.4em;
+}
+
+h2{
+	margin-top:10px;
+	text-align:center;
+	font-family:'Dosis', sans-serif;
+	font-size:1.4em;
+	color:#acdb1c;
+}
+
+.wrap-text{
+margin:0px auto 0px auto;
+width:100%;
+}
+
+.about-left{
+display:none;
+}
+
+.about-right{
+float:none;
+margin:110px 0px 110px 0px;
+width:100%;
+}
+
+
+.about-right p{
+    font-family: 'roboto slab', serif;
+    font-size: .9em;
+    font-weight: 400;
+    width: 85%;
+    text-align: left;
+}
+
+
+article p{
+	width:85%;
+	margin:auto;
+	font-family:'open sans', sans-serif;
+	font-size:1em;
+	font-weight:400;
+	text-align: left;
+}
+
+
+article button{
+	color:#3e4444;
+	text-align: center;
+	font-size: 1.1em;
+	width: 145px;
+	height: 45px;
+	background-color:transparent;
+	cursor: pointer !important;
+	border-style: solid;
+	border-color: #acdb1c;
+	border-radius: 20px 20px 20px 20px;
+}
+
+article form {
+    width:auto;
+    text-align: center;
+    margin-top:15px;
+}
+
+
+article#icons {
+    display: none;
+}
+
+
+article#resume{
+	color:white;
+	height:70px;
+	background-color:#f9f9f9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+article#work{
+	color:white;
+	height:70px;
+	background-color:#f9f9f9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+article#thumbnails{
+	background-color:#fff;
+	color:red;
+}
+
+article#hire{
+    display: none;
+}
+
+article#contact{
+    display: none;
+}
+
+
+
+.resume{
+	padding:15px;
+}
+	
+
+#tswname {
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 5px auto 20px auto;
+}
+
+#tswemail{
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 5px auto 20px auto;
+}
+
+#tswcomments{
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 5px auto 20px auto;
+}
+
+
+.fa{
+	font-size:2em;
+}
+	
+
+article#thumbnails ul {
+	list-style: none;
+    padding:0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+article#thumbnails li{
+ 	display: inline-block;
+    margin: 6px 2px 0 2px;
+    vertical-align: top;
+    height: 250px;
+}
+
+
+hr{display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+MEDIA QUERIES FOR RESPONSIVE DESIGN
+========================================================================== */
+
+@media all and (min-width: 48em) {
+
+.wrap {
+	text-align:center;
+	width: 95%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+/*NAV*/
+.name{
+	display:block;
+	float:left;
+	padding:25px 0;
+}
+
+nav{
+	display: block;
+	position:absolute;
+	top:0;
+	margin:0 auto;
+	font-size:1.4em;
+	height:70px;
+	background-color:transparent;
+}
+nav ul {
+	float:right;
+	width:auto;
+	}
+nav ul li{
+	text-align:right;
+	width:auto;
+	height:20px;
+	display: inline-block;
+	border-bottom:none;
+	padding:25px 0 20px 40px;
+}
+
+nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+
+
+nav ul li a:{
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+}
+
+
+
+nav ul li:hover {
+background-color: transparent;
+
+}
+
+
+nav ul li a:hover {
+color: #Fff;
+
+text-decoration: underline;
+text-decoration-color:;
+}
+
+
+ul.navigation {
+display: inline-block;
+}
+#menu {display: none !important;}
+	
+
+
+footer{
+	background-color:#202020;
+	height:200px;
+	color:#fff;
+	text-align:center;
+	font-family:'Dosis', sans-serif;
+	font-size:1.5em;	
+
+}
+	
+
+p.copyright{	
+	padding:20px 0;
+	
+	}
+	
+article{
+	overflow: hidden;
+	width:100%;
+	margin: 0px auto 0px auto;
+}
+		
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+header{
+
+	/*100vh*/
+	margin-top:0px;
+	background:transparent;
+	background-repeat:no-repeat;
+	height:700px;
+	text-align:center;
+	background-position: center;
+	background-size:cover;
+	position:relative;
+	
+}
+
+
+header p{
+	padding-top:45px;
+	color:#fff;
+	font-size:1.4em;
+	text-align:center;
+	text-transform:;
+	position:absolute;
+    bottom: 100px;
+    margin: 0 auto;
+	width:100%;
+	}
+
+header h1{
+	position:absolute;
+    bottom: 250px;
+	font-weight:400;
+	color:#fff;
+	font-size:2.6em;
+	text-align:center;
+	font-family: 'Dosis', sans-serif;
+	margin: 0 auto;
+	width:100%;
+}
+
+h3{ 
+	font-size:1.3em;
+	margin-top:15px;
+	color:#acdb1c;
+}
+
+h4{
+	margin-top:10px;
+}
+
+a{
+	color:#acdb1c;
+	text-decoration:none;	
+}
+
+a.name{
+	color:#fff;
+	font-size:2em;
+	}
+
+#social{
+	padding-top:20px;
+	text-align:center;
+}
+
+
+h1{
+	text-align:center;
+	font-size:3.3em;
+	color:#3e4444;
+}
+
+h1.about{
+	text-align:center;
+	margin: auto;
+	width: 85%;
+	font-size:1.9em;
+	color:#3e4444;
+	margin-bottom: 15px;
+}
+
+b.sub{
+	text-align: center;
+    font-family: 'Dosis';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #3e4444;
+}
+
+b.copyright{
+	text-align:center;
+	font-family: 'Dosis';
+	font-size:.6em;
+	color:#3e4444;
+}
+
+b{ 
+	color:#acdb1c;
+	font-size:1.4em;
+}
+
+h2{
+	margin-top:10px;
+	text-align:center;
+	font-family:'Dosis', sans-serif;
+	font-size:1.5em;
+	color:#acdb1c;
+}
+
+.wrap-text{
+margin:70px auto 70px auto;
+width:100%;
+}
+
+.about-left{
+display:block;
+float:left;
+background-image:url('../img/blonde-girl2.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+width:100%;
+flex-direction: column;
+}
+
+.about-right{
+float:right;
+margin:110px 0px 110px 0px;
+width:100%;
+}
+
+
+.about-right p{
+    font-family: 'roboto slab', serif;
+    font-size: .9em;
+    font-weight: 400;
+    width: 85%;
+    text-align: left;
+}
+
+article p{
+	width:700px;
+	margin:auto;
+	font-family:'open sans', sans-serif;
+	font-size:1em;
+	font-weight:400;
+	text-align: center;
+}
+
+
+article button{
+	color:#3e4444;
+	text-align: center;
+	font-size: 1.1em;
+	width: 145px;
+	height: 45px;
+	background-color:transparent;
+	cursor: pointer !important;
+	border-style: solid;
+	border-color: #acdb1c;
+	border-radius: 20px 20px 20px 20px;
+}
+
+
+article button:hover{
+	color:#acdb1c;
+}
+
+article form {
+    width:auto;
+    text-align: center;
+    margin: 15px auto 0px auto;
+}
+
+article form.contact {
+    width: 400px;
+    text-align: left;
+    margin: 25px auto 0px auto;
+}
+
+
+article#icons{	
+	display: block;
+	text-align:center;
+	background-color:#fff;
+
+}
+
+h1.icons{
+	text-align:center;
+	color:#acdb1c;
+	font-size:4.5em;
+	font-family:'THIN';
+}
+
+footer h1.icons{
+	text-align:center;
+	padding-top:60px;
+	padding-bottom: 30px;
+	color:#fff;
+	font-size:1.6em;
+	font-family:'THIN';
+}
+
+
+article#resume{
+	color:white;
+	height:175px;
+	background-color:#f9f9f9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+article#work{
+	color:white;
+	height:175px;
+	background-color:#f9f9f9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+article#thumbnails{
+	background-color:#fff;
+	color:red;
+}
+
+article#hire{
+	display: block;
+	color:white;
+	height:175px;
+	background-color:#f9f9f9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+article#contact{
+	display: block;
+	background-color:#fff;
+}
+
+
+
+.resume{
+	padding:15px;
+}
+	
+
+#tswname {
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 5px auto 20px auto;
+}
+
+#tswemail{
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 5px auto 20px auto;
+}
+
+#tswcomments{
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 5px auto 20px auto;
+}
+
+
+.fa{
+	font-size:2em;
+}
+	
+
+ul.icons {
+	float:center;
+    width:100%;
+	}
+
+ul.icons li{
+	width:230px;
+	font-size: .9em;
+	margin:auto 15px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+ul.icons li p{
+	width:100%;
+	padding-top: 35px;
+}
+
+
+
+
+article#thumbnails ul {
+	list-style: none;
+    padding:0;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+article#thumbnails li{
+ 	display: inline-block;
+    margin: 6px 2px 0 2px;
+    vertical-align: top;
+    height: 250px;
+}
+
+
+hr {
+    display: block;
+    width: 100px;
+	color:#D96C06;
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+	
+}
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+	
+@media all and (min-width: 71.25em) {

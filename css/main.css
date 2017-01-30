@@ -151,8 +151,8 @@ nav{
 	margin:0 auto;
 	font-size:1.4em;
 	height:70px;
-	background-color:#fff;
-	border-bottom: solid 1px #ebeced;
+	background-color:transparent;
+	transition-duration: 1s;
 }
 nav ul {
 	float:right;
@@ -168,7 +168,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #3e4444;
+    color: #fff;
     font-weight: 700;
     text-decoration: none;
     font-size: .6em;
@@ -194,9 +194,6 @@ background-color: transparent;
 
 nav ul li a:hover {
 color: #Fff;
-
-text-decoration: underline;
-text-decoration-color:red;
 }
 
 
@@ -299,7 +296,7 @@ a{
 }
 
 a.name{
-	color: #3e4444;
+	color: #fff;
     font-size: 1em;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -365,7 +362,7 @@ h2{
     justify-content: center;
 	align-items: flex-end;
 	
-	background-image:url('../img/vera.jpg');
+	background-image:url('../img/vera1.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -422,15 +419,6 @@ form.contact {
 }
 
 
-article#icons{
-	display: -webkit-inline-flex; /* Safari */
-	display: inline-flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	flex-wrap:         nowrap;
-	background-color:white;
-  
-}
 
 h1.icons{
 	text-align:center;
@@ -467,10 +455,9 @@ article#work{
 
 
 article#work p{
-	font-family:'roboto', serif;
-	font-size:1.1em;
+	font-family:'roboto slab', serif;
+	font-size:1.2em;
 	text-align: center;
-	font-style:italic;
 	width:500px;
 	margin:30px auto 0 auto;	
 }
@@ -672,7 +659,7 @@ article#icons{
   flex-direction: row;
   flex-wrap: wrap;
   background-color:white;
-  margin: 80px auto;
+  margin: 150px auto;
   width: 80%;
 
 }

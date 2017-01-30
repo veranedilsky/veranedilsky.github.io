@@ -37,7 +37,7 @@
 
 
 <div class="header-text">
-   <h1>Hi there<hr> </h1>
+   <h1>Hi there</h1>
    <p>Graphic design portfolio</p>
 </div>     
 	   
@@ -69,7 +69,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-cogs fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<i class="fa fa-cogs fa-5x fa-gradient" aria-hidden="true"></i><br/>
 <b class="sub">EDUCATION</b>
 <p>Three awesome years studying graphic and web design.</p>
 
@@ -81,7 +81,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-code fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<i class="fa fa-code fa-5x fa-gradient" aria-hidden="true"></i><br/>
 <b class="sub">WEB DESIGN</b>
 <p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
 
@@ -93,7 +93,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-pencil fa-4x fa-gradient" aria-hidden="true"></i><br/>
+<i class="fa fa-pencil fa-5x fa-gradient" aria-hidden="true"></i><br/>
 <b class="sub">GRAPHIC DESIGN</b>
 <p>Branding, packaging, editorial, poster design and more.</p>
 
@@ -115,7 +115,7 @@
 <div id="resume">
 <h1>Resume</h1>
 
-<hr><form method="get" action="veranedilsky-resumeGD.pdf">
+<form method="get" action="veranedilsky-resumeGD.pdf">
 <button type="submit">Download</button>
 </form>
 </div>
@@ -144,7 +144,6 @@
 
 <div class="work-text">
 <h1 class="work">Work</h1>
-<hr>
 <p class="work">Below you will find a collection of works that I have created either for school projects or for freelance work</p>
 </div>    
 	
@@ -272,6 +271,24 @@
 				
 				/*('header').parallax({imageSrc: 'img/header-bg2.jpg'});*/
 				  
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('nav');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+               $("nav").css('background-color', '#fff');
+                    $("nav a").css('color', '#3e4444');
+					$("nav").css('border-bottom', '1px solid #ebeced');
+                } else {
+                    $("nav").css('background-color', 'transparent');
+                    $("nav a").css('color', '#fff');
+					$("nav").css('border-bottom', 'none');
+       }
+   });
+});
+
 
 				  
 $(window).scroll(function(){

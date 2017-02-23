@@ -5,21 +5,20 @@
     	<meta name="theme-color" content="#3e4444">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Metamorphosis Book Cover</title>
+        <title>Vera Nedilsky | Graphic Design</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		
+		
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
-
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400,600" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		
-		
-		
+<link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800|Open+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,700" rel="stylesheet">
 		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/extra.css">
@@ -28,13 +27,7 @@
     </head>
     
     <body>
-
-<!-- <header data-parallax="scroll" data-image-src="img/header-bg2.jpg">
-     
-
-        <h1>You and I are a team, there is nothing<br> more important than our success</h1>
-        <p>Graphic design & Web design</p>
-        </header> -->
+	
 
 <nav>
 <div class="wrap">
@@ -45,12 +38,19 @@
     	
     <ul class="navigation">
     
-				<li><a href="index.html">← Back Home</a></li>
-
-				
+				<li class="one"><a href="#header">Home</a></li>
+				<li class="two"><a href="#about-me">About</a></li>
+				<li class="three"><a href="#work">Work</a></li>
+				<li class="four"><a href="#contact">Contact</a></li>
+				<hr class="menu" />
 			</ul>
             </div>
 		</nav>
+
+
+
+
+
 
 
 
@@ -58,21 +58,39 @@
 
 <div id="hires-image"><img class="hires" src="hires/hardcover-book.jpg"></div>
 
-<div id="image-info"><h1 class="about">Metamorphosis Book Cover</h1>
+<div id="image-info"><h1 class="about">Self Portrait</h1>
 		<hr>
-        <p>For this project, we were required to pick a book that we enjoyed and create our own version of a book cover for it, this included front, back and inside. Created using InDesign and Illustrator.</p></div>   </div>    
+        <p>Vector image created for a class project which required making a self portrait based on an image of yourself.  It was made entirely in Adobe Illustrator.</p></div>   </div>    
 </article>
 
 
 
+
+<article>
+
+<div id="hires-image"><img class="hires" src="hires/pdht-annual-graphics-exchibition-poster.png"></div>
+
+<div id="image-info"><h1 class="about">PDHT Graphics Exhibition Poster</h1>
+		<hr>
+        <p>Each student was assigned to create a poster for the PDHT Annual Graphics Exhibition. It was made in Illustrator. We had to use the Bauhaus style as an inspiration.</p></div>   </div>    
+</article>
+
+
+<article>
+
+<div id="hires-image"><img class="hires" src="hires/child-abuse-awareness-poster.jpg"></div>
+
+<div id="image-info"><h1 class="about">Awareness Poster</h1>
+		<hr>
+        <p>This child abuse awareness poster was created for my print portfolio class. This particular poster was aimed at a wide audience to raise awareness for reporting any abuse or neglect that you see. </p></div> 
+</article>
+
+        
 <footer>
-<b class="icons">E</b>
-<b class="icons">E</b>
-<br>
-
-<b class="copyright">© 2016 VERA NEDILSKY. ALL RIGHTS RESERVED.</b>
-</footer>      
-
+<b class="copyright">© 2017 VERA NEDILSKY. ALL RIGHTS RESERVED.</b>
+</footer>        
+        
+        
         
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -118,21 +136,11 @@
 				} 
 				
 				
-				  /*$('header').parallax({imageSrc: 'img/header-bg2.jpg'});*/
-				  
-				  
-				  
-				  
 				  
 $(window).scroll(function(){
-    $("header h1, header p").css("opacity", 1 - $(window).scrollTop() / 450);
+    $("header h1, header p, .social").css("opacity", 1 - $(window).scrollTop() / 450);
   });
 
-/*win.scroll(function(){
-  scrollPosition = win.scrollTop();
-  scrollRatio = 1 - scrollPosition / 300;
-  $(".top").css("opacity", scrollRatio);
-*/
 		  </script>
 
     </body>

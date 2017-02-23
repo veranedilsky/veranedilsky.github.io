@@ -15,10 +15,8 @@
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 		
 		
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800|Open+Sans:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800|Open+Sans:300,400,700|Lato:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -33,19 +31,31 @@
 	
 <a name="header"> </a>
 
-<header data-parallax="scroll" data-image-src="img/blur.jpg">
+<header data-parallax="scroll" data-image-src="img/laptop-backgroundd.jpg">
+<div class="social">
+<!--<div class="social-line"></div>-->
+
+  	  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+	  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+	  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+  </div>
 
 
 <div class="header-text">
    <h1>Hi there</h1>
    <p>Graphic design portfolio</p>
 </div>     
+
+  
+  <div class="download">
+<form method="get" action="veranedilsky-resumeGD.pdf">
+<button type="submit"><i class="fa fa-download" aria-hidden="true"></i>  Resume</button>
+</form>
+  </div>
 	   
 </header>
 
 <nav>
-<div class="wrap">
-
 	<a class="ir" id="menu" onclick="NavShow();" onscroll="NavHide()">Navigation</a>	
     
     <a class="name" href="index.html">Vera Nedilsky</a>
@@ -58,7 +68,6 @@
 				<li class="four"><a href="#contact">Contact</a></li>
 				<hr class="menu" />
 			</ul>
-            </div>
 		</nav>
 
 
@@ -81,7 +90,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-code fa-5x fa-gradient" aria-hidden="true"></i><br/>
+<i class="fa fa-code fa-5x fa-gradient2" aria-hidden="true"></i><br/>
 <b class="sub">WEB DESIGN</b>
 <p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
 
@@ -93,7 +102,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-pencil fa-5x fa-gradient" aria-hidden="true"></i><br/>
+<i class="fa fa-pencil fa-5x fa-gradient3" aria-hidden="true"></i><br/>
 <b class="sub">GRAPHIC DESIGN</b>
 <p>Branding, packaging, editorial, poster design and more.</p>
 
@@ -107,27 +116,23 @@
 
 
 
-<article>
+<article id="icons">
 <a name="about-me"> </a>
 
 <div class="about-left">
 
 <div id="resume">
-<h1>Resume</h1>
-
-<form method="get" action="veranedilsky-resumeGD.pdf">
-<button type="submit">Download</button>
-</form>
+<h1 class="about">let me tell you a little bit more about myself</h1>
 </div>
 
 </div>
 
 
 <div class="about-right">
-<h1 class="about">About me</h1>
+		<hr/>
         <p>I’ve always had a creative side to me. As a kid I loved to draw, do arts and crafts, 
 		make up outrageous imagionary stories... over time I started to think of better ways to put 
-		this creativity to use. I started to research web design (what the heck is this HTML and CSS nonesense 
+		this creativity to use. </p><p>I started to research web design (what the heck is this HTML and CSS nonesense 
 		they speak of?) and the more I learned, the more I became interested. I started to look into design, 
 		playing with colours and fonts, trying to find ways to use this new skill. When it came time to go to 
 		College and my dad suggested the Graphic Design program, it was a no brainer. Here I am today, this 
@@ -177,11 +182,9 @@
 <div id="contact-info">
 
 <div id="hire">
-<div class="hire-me"><h1>Hire Me</h1>
+<div class="hire-me">
       <hr><h2>Contact Information</h2>  
-	  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-	  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-	  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+	  <p>Interested in working together? <br>Send me an email so we can chat!</p>
 
 </div>       
 </div>
@@ -192,9 +195,7 @@
 <div id="contact">
 <a name="about-me"> </a>
 
-<div class="contact-form">
 
-<p>Interested in working together? <br>Send me an email so we can chat!</p>
 <form class="contact" action="MAILTO:nedilskyvera@gmail.com" method="post" enctype="text/plain">
 
 <i class="fa fa-user" aria-hidden="true"></i> <label for="tswname">Name</label>
@@ -210,7 +211,6 @@
 <input type="submit" value="Send" /><br />
 </form>
 
-</div>
 </div>
 
 
@@ -268,10 +268,8 @@
 					}
 				} 
 				
-				
-				/*('header').parallax({imageSrc: 'img/header-bg2.jpg'});*/
 				  
-$(document).ready(function(){       
+ $(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $('nav');
    var offset = startchange.offset();
@@ -292,7 +290,7 @@ $(document).ready(function(){
 
 				  
 $(window).scroll(function(){
-    $("header h1, header p").css("opacity", 1 - $(window).scrollTop() / 450);
+    $("header h1, header p, .social, button").css("opacity", 1 - $(window).scrollTop() / 550);
   });
 
 		  </script>

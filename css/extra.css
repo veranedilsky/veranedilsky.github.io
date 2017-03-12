@@ -203,19 +203,16 @@ margin-right: 40px;
 #menu {display: none !important;}
 	
 
-
 footer{
-   
-    display: flex;
-    height: 100px;
+	display: flex;
+    height: 50px;
     color: #fff;
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 1.5em;
-    background-color: #3e4444;
-    border-top: 1px solid #2a323b;
-	align-items: center;
-  	justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
 }
 
 b.sub{
@@ -405,7 +402,7 @@ hr.menu {
     height: 2px;
     width: 80px;
     margin: 0;
-    background: #D96C06;
+    background: #6713d2;
     border: none;
     transition: .3s ease-in-out;
 }

@@ -135,72 +135,60 @@ font-size:2em;}
 
 	
 /*NAV*/
-.name{
-	display:block;
-	float:left;
+
+a.name{
+	color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'open sans', sans-serif;
+	margin-left: 10px;
 }
 
 nav{
-	display:flex;
+	display: flex;
 	position:fixed;
 	top:0;
-	margin:0 auto;
 	height:40px;
 	background-color:transparent;
-	transition-duration: 0.2s;
+	transition-duration: 1s;
+	align-items: center;
 }
-nav ul {
-	float:right;
-	width:auto;
-	}
-	
+
 nav ul li{
-	text-align: left;
-    width: 80px;
-    height: 40px;
-    display: flex;
+    text-align: right;
+    width: auto;
+    height:auto;
+    display: inline-block;
     border-bottom: none;
-    align-items: center;
 }
 
 nav ul li a{
-    color: #3e4444;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 500;
     text-decoration: none;
-    font-size: .6em;
+    font-size: .8em;
     text-transform: uppercase;
-    display:block;
-    font-family: 'roboto';
-}
-
-
-nav ul li a:{
-	color:#fff;
-	text-decoration:none;
-	display:inline-block;
-}
-
-
-
-nav ul li:hover {
-background-color: transparent;
-
-}
-
-
-nav ul li a:hover {
-color: #Fff;
+    display: inline-block;
+    font-family:'open sans', sans-serif;
+	margin-right:5px;
 }
 
 
 ul.navigation {
-display:block;
-margin-right: 40px;
+width:auto;
+margin-right: 10px;
+margin-left: auto;
 }
 
-#menu {display: block;
-background-color:transparent;}
+
+
+
+/*#menu {display: block;
+background-color:transparent;}*/
 	
+
 
 
 footer{
@@ -278,7 +266,8 @@ header h1{
 
 
 .download{
-	display:none;
+    background-color: transparent;
+    margin-top: 20px;
 }
 
 .social{
@@ -306,16 +295,6 @@ header h1{
 a{
 	color:#acdb1c;
 	text-decoration:none;	
-}
-
-a.name{
-	color: #fff;
-    font-size: 1em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family:'open sans', sans-serif;
-	margin-left: 40px;
 }
 
 
@@ -432,12 +411,13 @@ b.icons a{
 }
 
 article#work{
-	height:175px;
+display:none;
+/*	height:175px;
 	margin-top: 50px;
 	background-color:transparent;
 	display:flex;
 	align-items: center;
-  	justify-content: center;
+  	justify-content: center;*/
 }
 
 
@@ -462,12 +442,13 @@ h2.work{
 
 
 #thumbnails{
-	background-color:transparent;
+/*	background-color:transparent;
 	display: inline-flex;
   	-webkit-flex-direction: row;
   	flex-direction: row;
   	flex-wrap:       wrap;
-	justify-content:center;
+	justify-content:center;*/
+	display:none;
 }
 
 #thumbnail{
@@ -486,6 +467,7 @@ h2.work{
 	display:flex;
 	align-items: center;
   	justify-content: center;
+	flex-direction:column;
 }
 
 .hire-me{
@@ -628,7 +610,14 @@ article#about{
 }
 
 article#icons{
-display:none;
+  display: -webkit-inline-flex; /* Safari */
+  display:flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:transparent;
+  margin: 150px auto;
+  width: 95%;
 }
 
 	
@@ -688,7 +677,9 @@ display:none;
 	
 }
 
-
+i.fa-th{
+	display:block;
+}
 
 
 
@@ -700,7 +691,6 @@ display:none;
 
    /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-	
 
 nav{
 	display: flex;
@@ -984,25 +974,31 @@ hr {
 	float:left;
 }
 
+
+
+a.name{
+	color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'open sans', sans-serif;
+	margin-left: 40px;
+}
+
 nav{
 	display: flex;
 	position:fixed;
 	top:0;
-	margin:0 auto;
 	height:70px;
 	background-color:transparent;
 	transition-duration: 1s;
 	align-items: center;
 }
 
-nav ul {
-	float:right;
-	width:auto;
-	}
-	
 nav ul li{
-    text-align: center;
-    width: 80px;
+    text-align: right;
+    width: auto;
     height:auto;
     display: inline-block;
     border-bottom: none;
@@ -1010,7 +1006,7 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     font-size: .8em;
     text-transform: uppercase;
@@ -1019,22 +1015,16 @@ nav ul li a{
 }
 
 
-nav ul li a:{
-	color:#fff;
-	text-decoration:none;
-	display:inline-block;
-}
-
-
 ul.navigation {
-display: inline-block;
-margin-right: 30px;
+width:auto;
+margin-right: 40px;
 margin-left: auto;
 }
 
-#menu {display: none !important;}
+/*#menu {display: none !important;}
 	
 
+*/
 
 footer{
 	display: flex;
@@ -1086,7 +1076,8 @@ header{
 
 
 .header-text{	
-width:600px;		
+width:600px;	
+position:absolute;	
 }
 
 header p{
@@ -1146,17 +1137,6 @@ a{
 	color:#acdb1c;
 	text-decoration:none;	
 }
-
-a.name{
-	color: #fff;
-    font-size: 1.2em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'open sans', sans-serif;
-	margin-left: 40px;
-}
-
 
 
 p{
@@ -1331,6 +1311,7 @@ h2.work{
 	display:flex;
 	align-items: center;
   	justify-content: center;
+	flex-direction:row;
 }
 
 .hire-me{
@@ -1453,6 +1434,7 @@ hr.contact {
     margin: 0 auto;
 }	
 
+
 hr.menu {
     height: 2px;
     width: 80px;
@@ -1568,6 +1550,25 @@ height:20px;
 	
 }
 
+i.fa-th{
+	display:none;
+}
+
+
+
+/*.parallax-overlay {
+	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity:0.5;
+}*/
+
+}
 }
 
 

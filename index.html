@@ -28,11 +28,11 @@
 	
 	
 	
-	
-<a name="header"> </a>
 
 <header data-parallax="scroll" data-image-src="img/laptop-backgroundd.jpg">
 
+	
+	<div class="parallax-overlay"></div>
 
 <div class="header-text">
    <h1>Hi there, my name is Vera and I'm a graphic designer from Montréal. Have a look around.</h1>
@@ -54,19 +54,19 @@
 	   
 </header>
 
+
+
+
+
+
+
 <nav>
     
-    <a class="name" href="index.html">Vera Nedilsky</a>
 	
-	<a class="ir" id="menu" onclick="NavShow();" onscroll="NavHide();"><i class="fa fa-bars fa-gradient" aria-hidden="true"></i></a>	
+    <a class="name" href="index.html">Vera Nedilsky</a>
     	
     <ul class="navigation">
-    
-				<li class="one"><a href="#header">Home</a></li>
-				<li class="two"><a href="#icons">About</a></li>
-				<li class="three"><a href="#work">Work</a></li>
-				<li class="four"><a href="#contact">Contact</a></li>
-				<hr class="menu" />
+				<li class="three"><a href="#work">View my work</a><a href="#work"><i class="fa fa-th" aria-hidden="true"></i></a></li>
 			</ul>
 		</nav>
 
@@ -192,14 +192,6 @@
 	  <a href="https://www.instagram.com/veranedilsky/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
   </div>
   
-  <div class="download-bot">
-<form method="get" action="veranedilsky-resumeGD.pdf">
-<button type="submit"><i class="fa fa-download" aria-hidden="true"></i>  Resume</button>
-</form>
-  </div>
-  
-  
-         
 </div>
 
 
@@ -262,8 +254,7 @@
         
         
                 
-         <script type="text/javascript">
-
+<script type="text/javascript">
 				function NavShow(){
 					var topPos = $(".navigation").css("display");
 					if(topPos == 'none'){
@@ -273,7 +264,9 @@
 						$(".navigation").css('display' , 'none');	
 					}
 				} 
+</script>
 				
+<script type="text/javascript">
 				  
  $(document).ready(function(){       
    var scroll_start = 0;
@@ -293,7 +286,9 @@
    });
 });
 
+</script>
 
+<script type="text/javascript">
 				  
 $(window).scroll(function(){
     $("header h1, header p, .social, button").css("opacity", 1 - $(window).scrollTop() / 550);

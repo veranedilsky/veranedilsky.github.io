@@ -257,7 +257,7 @@ header p{
 header h1{
 	text-align:center;
     text-transform: none;
-    font-family: 'open sans';
+    font-family: 'roboto';
     font-size: 1em;
     color: #fff;
     font-weight: 300;
@@ -265,10 +265,21 @@ header h1{
 }
 
 
-.download{
+button{
+	color: #fff;
+    text-align: center;
+    font-size: .9em;
+    font-family: 'roboto';
+    width: 110px;
+    height: 35px;
     background-color: transparent;
-    margin-top: 20px;
+    cursor: pointer !important;
+    border: solid 2px #6713d2;
+    border-radius: 20px;
+    font-weight: 300;
+	margin-top:20px;
 }
+
 
 .social{
 	display:none;
@@ -691,25 +702,36 @@ i.fa-th{
 
    /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+.name{
+	display:block;
+	float:left;
+}
+
+
+
+a.name{
+	color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'open sans', sans-serif;
+	margin-left: 40px;
+}
 
 nav{
 	display: flex;
 	position:fixed;
 	top:0;
-	margin:0 auto;
 	height:70px;
 	background-color:transparent;
 	transition-duration: 1s;
 	align-items: center;
 }
-nav ul {
-	float:right;
-	width:auto;
-	}
-	
+
 nav ul li{
-    text-align: center;
-    width: 80px;
+    text-align: right;
+    width: auto;
     height:auto;
     display: inline-block;
     border-bottom: none;
@@ -717,7 +739,7 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     font-size: .8em;
     text-transform: uppercase;
@@ -726,25 +748,12 @@ nav ul li a{
 }
 
 
-nav ul li a:{
-	color:#fff;
-	text-decoration:none;
-	display:inline-block;
-}
-
-nav ul li:hover {
-
-}
-
 ul.navigation {
-display: inline-block;
-margin-right: 20px;
+width:auto;
+margin-right: 40px;
 margin-left: auto;
 }
 
-a.name{
-	margin-left: 20px;
-}
 
 #menu {display: none !important;}
 	
@@ -762,53 +771,46 @@ header{
 	background-color:transparent;
 }
 
-header p{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: .9em;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'open sans', sans-serif;
-	margin-top:25px;
-	}
-
 header h1{
 	text-align:center;
     text-transform: none;
-    font-family: 'open sans';
-    font-size: 1.2em;
+    font-family: 'roboto';
+    font-size: 1.3em;
     color: #fff;
     font-weight: 300;
 	line-height:35px;
 }
 
 .header-text{	
-width:60%;		
+width:500px;		
 }
 
-.social {
+.social{
 	align-self: flex-start;
     background-color: transparent;
     position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: row;
-    left: 20px;
-    margin: 0 0 25px 0;
-	}
-	
-.download {
-    align-self: flex-end;
-    background-color: transparent;
-    position: absolute;
-    bottom: 0;
-    right: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
+    left: 40px;
+	margin:0 0 25px 0;
+	align-items:center;
 }
 
-.download button{
+.social a{
+height:20px;
+	
+}	
+
+b.social-text{
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: .7em;
+    width: auto;
+    text-align: left;
+	}
+
+button{
 	color: #fff;
     text-align: center;
     font-size: .9em;
@@ -820,6 +822,7 @@ width:60%;
     border: solid 2px #6713d2;
     border-radius: 20px;
     font-weight: 300;
+	margin-top:20px;
 }
 
 .download-bot{
@@ -856,6 +859,18 @@ h2.work{
     font-family: 'open sans', sans-serif;
 }
 
+
+article#work{
+	height:175px;
+	margin-top: 50px;
+	background-color:transparent;
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+
+
 article#work p{
 	font-family: 'open sans', sans-serif;
     font-size: 1em;
@@ -864,6 +879,23 @@ article#work p{
     margin: 15px auto;
     font-weight: 300;
     color: #3e4444;	
+}
+
+
+#thumbnails{
+	background-color:transparent;
+	display: inline-flex;
+  	-webkit-flex-direction: row;
+  	flex-direction: row;
+  	flex-wrap:       wrap;
+	justify-content:center;
+}
+
+#thumbnail{
+ flex-grow: 0;
+ flex-shrink: 1;
+ margin-top: -7px;	
+		
 }
 
 .about-left{
@@ -950,6 +982,12 @@ hr {
     margin: 5px 0;
 	
 }	
+
+
+i.fa-th{
+	display:none;
+}
+
 
     }
 
@@ -1077,23 +1115,12 @@ header{
 
 .header-text{	
 width:600px;	
-position:absolute;	
 }
-
-header p{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: .9em;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'open sans', sans-serif;
-	margin-top:25px;
-	}
 
 header h1{
 	text-align:center;
     text-transform: none;
-    font-family: 'open sans';
+    font-family: 'roboto';
     font-size: 1.5em;
     color: #fff;
     font-weight: 300;
@@ -1101,8 +1128,12 @@ header h1{
 }
 
 
-.download{
-    align-self: flex-end;
+/*.download{
+background-color: transparent;
+
+
+
+   align-self: flex-end;
     background-color: transparent;
     position: absolute;
     bottom: 0;
@@ -1111,6 +1142,10 @@ header h1{
     flex-direction: row;
     margin-bottom: 25px;
 }
+*/
+
+
+
 
 .social{
 	align-self: flex-start;
@@ -1121,7 +1156,33 @@ header h1{
     flex-direction: row;
     left: 40px;
 	margin:0 0 25px 0;
+	align-items:center;
 }
+
+.social a{
+height:20px;
+	
+}	
+
+b.social-text{
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: .7em;
+    width: auto;
+    text-align: left;
+	}
+	
+hr.social{
+	
+	display: block;
+    width: 50px;
+    color: #6713d2;
+    border-style: solid;
+    border-width: 1.5px;
+    max-width: 100px;
+    margin: 5px 0;
+	
+}	
 
 
 .download-bot{
@@ -1175,7 +1236,6 @@ h3{
     font-family: 'open sans';
 }
 
-
 .about-left{
     flex-direction: row;
     background-color: transparent;
@@ -1211,18 +1271,19 @@ h3{
 }
 
 
-.download button{
+button{
 	color: #fff;
     text-align: center;
-    font-size: .9em;
+    font-size: 1em;
     font-family: 'roboto';
-    width: 110px;
+    width: 125px;
     height: 35px;
     background-color: transparent;
     cursor: pointer !important;
     border: solid 2px #6713d2;
     border-radius: 20px;
-    font-weight: 300;
+    letter-spacing: 1px;
+	margin-top:20px;
 }
 
 
@@ -1515,10 +1576,6 @@ article#icons{
 	margin:0 10px 0 0;
 }
 
-.social a{
-height:20px;
-	
-}	
 	
 .fa-gradient {
 	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));

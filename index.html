@@ -35,17 +35,10 @@
 	<div class="parallax-overlay"></div>
 
 <div class="header-text">
-   <h1>Hi there, my name is Vera and I'm a graphic designer from Montréal. Have a look around.</h1>
+   <h1>Welcome</h1>
+      <p>My name is Vera Nedilsky and I'm a graphic designer from Montréal. <br>Have a look around.</p>
 </div>     
 
-<div class="social">
-
-  	  <a href="https://www.facebook.com/vnedilsky"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-	  <a href="https://ca.linkedin.com/in/vera-nedilsky-b81a768b"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-	  <a href="https://www.instagram.com/veranedilsky/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a> 
-	  
-	<b class="social-text">follow me</b>
-  </div>
   
 <form method="get" action="veranedilsky-resumeGD.pdf">
 <button type="submit">Resume</button>
@@ -61,13 +54,28 @@
 
 
 <nav>
-    
+
+
+    <div class="social">
+
+  	  <a href="https://www.facebook.com/vnedilsky"><i class="icons-small">I</i></a>
+	  
+	  <a href="https://ca.linkedin.com/in/vera-nedilsky-b81a768b"><i class="icons-small">F</i></a>
+	  
+	  <a href="https://www.instagram.com/veranedilsky/"><i class="icons-small">H</i></a> 
+
+  </div>
+  
 	
-    <a class="name" href="index.html">Vera Nedilsky</a>
+    <a class="name" href="index.html"><span class="icon-v-logo">&#xe900;</span></a>
+	
     	
     <ul class="navigation">
 				<li class="three"><a href="#work">View my work</a><a href="work.html"><i class="fa fa-th" aria-hidden="true"></i></a></li>
 			</ul>
+			
+			
+			
 		</nav>
 
 
@@ -78,7 +86,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-cogs fa-5x fa-gradient" aria-hidden="true"></i><br/>
+<i class="icons">B</i>
 <b class="sub">EDUCATION</b>
 <p>Three awesome years studying graphic and web design.</p>
 
@@ -90,7 +98,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-code fa-5x fa-gradient2" aria-hidden="true"></i><br/>
+<i class="icons">C</i>
 <b class="sub">WEB DESIGN</b>
 <p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
 
@@ -102,7 +110,7 @@
 <div id="column">
 <div id="icon">
 
-<i class="fa fa-pencil fa-5x fa-gradient3" aria-hidden="true"></i><br/>
+<i class="icons">A</i>
 <b class="sub">GRAPHIC DESIGN</b>
 <p>Branding, packaging, editorial, poster design and more.</p>
 
@@ -115,7 +123,7 @@
 
 
 
-<article id="icons">
+<article id="about">
 
 <div class="about-left">
 
@@ -224,7 +232,7 @@
 
         
 <footer>
-<b class="copyright">© 2017 VERA NEDILSKY. ALL RIGHTS RESERVED.</b>
+<b class="copyright">© 2017 Vera Nedilsky. All Rights Reserved.</b>
 </footer>        
         
         
@@ -277,10 +285,12 @@
       if(scroll_start > offset.top) {
                $("nav").css('background-color', '#fff');
                     $("nav a").css('color', '#3e4444');
+					$("i.icons-small").css('color', '#3e4444');
 					$("nav").css('border-bottom', '1px solid #ebeced');
                 } else {
                     $("nav").css('background-color', 'transparent');
                     $("nav a").css('color', '#fff');
+					$("i.icons-small").css('color', '#fff');
 					$("nav").css('border-bottom', 'none');
        }
    });
@@ -291,7 +301,7 @@
 <script type="text/javascript">
 				  
 $(window).scroll(function(){
-    $("header h1, header p, .social, button").css("opacity", 1 - $(window).scrollTop() / 550);
+    $("header h1, header p").css("opacity", 1 - $(window).scrollTop() / 550);
   });
 
 		  </script>

@@ -503,7 +503,7 @@ display:none;
 	padding:15px;
 }
 	
-
+/*
 #tswname {
 	display: block;
     border: 0;
@@ -538,7 +538,7 @@ display:none;
     height: 30px;
     margin-bottom: 50px;
     border-radius: 0px;
-}
+}*/
 
 label{
     font-family: 'roboto';
@@ -1050,6 +1050,50 @@ hr {
     max-width: 100px;
     margin: 5px 0;
 	
+}
+
+
+
+#tswname {
+	display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #cccccc;
+    width: 420px;
+    height: 30px;
+    margin-bottom: 50px;
+    border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
+}
+
+#tswemail{
+	display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #cccccc;
+    width: 420px;
+    height: 30px;
+    margin-bottom: 50px;
+    border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
+}
+
+#tswcomments{
+	display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #cccccc;
+    width: 420px;
+    height: 100px;
+    margin-bottom: 50px;
+    border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
 }	
 
 
@@ -1537,11 +1581,13 @@ h2.work{
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid #3e4444;
+    border-bottom: 1px solid #cccccc;
     width: 420px;
     height: 30px;
     margin-bottom: 50px;
     border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
 }
 
 #tswemail{
@@ -1549,11 +1595,13 @@ h2.work{
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid #3e4444;
+    border-bottom: 1px solid #cccccc;
     width: 420px;
     height: 30px;
     margin-bottom: 50px;
     border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
 }
 
 #tswcomments{
@@ -1561,11 +1609,13 @@ h2.work{
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid #3e4444;
+    border: 1px solid #cccccc;
     width: 420px;
-    height: 30px;
+    height: 100px;
     margin-bottom: 50px;
     border-radius: 0px;
+	text-align:left;
+	font-size:.7em;
 }
 
 label{

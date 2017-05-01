@@ -206,7 +206,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+    background: #6713d2;
 }
 
 b.copyright{
@@ -422,6 +422,7 @@ b.icons a{
 	color: white;
     height: auto;
     padding: 20px;
+	width:100%;
 
 }
 
@@ -701,7 +702,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+	background: #6713d2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -1068,6 +1069,7 @@ hr {
 	font-size:.7em;
 }
 
+
 #tswemail{
 	display: block;
     border: 0;
@@ -1104,7 +1106,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+	background: #6713d2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -1178,7 +1180,7 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     font-size: .8em;
     text-transform: uppercase;
@@ -1225,7 +1227,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+    background: #6713d2;
 }
 
 b.copyright{
@@ -1792,7 +1794,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
+	background: #6713d2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;

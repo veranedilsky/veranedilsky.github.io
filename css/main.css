@@ -206,7 +206,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: #6713d2;
+    background: #3e4444;
 }
 
 b.copyright{
@@ -272,16 +272,19 @@ header p{
 button{
 	color: #fff;
     text-align: center;
-    font-size: .8em;
-    font-family: 'roboto';
-    width: 95px;
-    height: 30px;
-    background-color: transparent;
+    font-size: .7em;
+    font-family: 'open sans';
+    width: 135px;
+    height: 35px;
+    background-color: #6713d2;
     cursor: pointer !important;
     border: solid 2px #6713d2;
     border-radius: 20px;
+    letter-spacing: 0;
+    margin-top: 20px;
     font-weight: 300;
-    margin-top: 10px;
+    text-transform: uppercase;
+
 }
 
 
@@ -383,14 +386,15 @@ h3{
 .download-bot button {
     color: #fff;
     text-align: center;
-    font-size: .9em;
-    font-family: 'roboto';
+    font-size: .7em;
+    font-family: 'open sans';
     width: 110px;
     height: 30px;
     background-color: transparent;
     cursor: pointer !important;
     border: solid 2px #6713d2;
     border-radius: 20px;
+	text-transform:uppercase;
 }
 
 
@@ -553,14 +557,15 @@ label{
 input{
 	color: #3e4444;
     text-align: center;
-    font-size: 1em;
-    font-family: 'roboto';
+    font-size: .7em;
+    font-family: 'open sans';
     width: 125px;
     height: 35px;
     cursor: pointer !important;
     background-color: transparent;
     border-radius: 20px;
     border: solid 2px #6713d2;
+	text-transform:uppercase;
 }
 
 
@@ -585,7 +590,7 @@ hr {
     width: 50px;
     color: #6713d2;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     max-width: 100px;
     margin:0 auto;
 	
@@ -883,16 +888,18 @@ b.social-text{
 button{
 	color: #fff;
     text-align: center;
-    font-size: .9em;
-    font-family: 'roboto';
-    width: 110px;
+    font-size: .7em;
+    font-family: 'open sans';
+    width: 135px;
     height: 35px;
-    background-color: transparent;
+    background-color: #6713d2;
     cursor: pointer !important;
     border: solid 2px #6713d2;
     border-radius: 20px;
+    letter-spacing: 0;
+    margin-top: 20px;
     font-weight: 300;
-	margin-top:20px;
+    text-transform: uppercase;
 }
 
 .download-bot{
@@ -1037,7 +1044,7 @@ hr.contact {
     width: 50px;
     color: #6713d2;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     margin: 0 auto;
 }
 
@@ -1047,7 +1054,7 @@ hr {
     width: 50px;
     color: #6713d2;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     max-width: 100px;
     margin: 5px 0;
 	
@@ -1227,7 +1234,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: #6713d2;
+    background: #3e4444;
 }
 
 b.copyright{
@@ -1452,16 +1459,18 @@ h3{
 button{
 	color: #fff;
     text-align: center;
-    font-size: .9em;
-    font-family: 'roboto';
-    width: 125px;
+    font-size: .7em;
+    font-family: 'open sans';
+    width: 135px;
     height: 35px;
-    background-color: transparent;
+    background-color: #6713d2;
     cursor: pointer !important;
     border: solid 2px #6713d2;
     border-radius: 20px;
-    letter-spacing: 1px;
-	margin-top:20px;
+    letter-spacing: 0;
+    margin-top: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 
@@ -1632,14 +1641,15 @@ label{
 input{
 	color: #3e4444;
     text-align: center;
-    font-size: 1em;
-    font-family: 'roboto';
+    font-size: .7em;
+    font-family: 'open sans';
     width: 125px;
     height: 35px;
     cursor: pointer !important;
     background-color: transparent;
     border-radius: 20px;
     border: solid 2px #6713d2;
+	text-transform:uppercase;
 }
 
 
@@ -1664,7 +1674,7 @@ hr {
     width: 50px;
     color: #6713d2;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     max-width: 100px;
     margin: 5px 0;
 	
@@ -1675,7 +1685,7 @@ hr.contact {
     width: 50px;
     color: #6713d2;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     margin: 0 auto;
 }	
 
@@ -1784,7 +1794,7 @@ article#icons{
   flex-direction: row;
   flex-wrap: wrap;
   width:65%;
-  margin:150px auto 0;
+  margin:150px auto 50px;
 	
 }
 

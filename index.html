@@ -38,7 +38,7 @@
 	
 	
 
-<header data-parallax="scroll" data-image-src="img/laptop-backgroundd.jpg">
+<header data-parallax="scroll" data-image-src="img/vsco2.jpg">
 
 	
 	<div class="parallax-overlay"></div>
@@ -284,25 +284,22 @@
 </script>
 				
 <script type="text/javascript">
-				  
- $(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('nav');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-               $("nav").css('background-color', '#fff');
-                    $("nav a").css('color', '#3e4444');
-					$("i.icons-small").css('color', '#3e4444');
-					$("nav").css('border-bottom', '1px solid #ebeced');
-                } else {
-                    $("nav").css('background-color', 'transparent');
-                    $("nav a").css('color', '#fff');
-					$("i.icons-small").css('color', '#fff');
-					$("nav").css('border-bottom', 'none');
-       }
-   });
+
+$(function(){
+  $(window).on('load scroll resize orientationchange', function () {
+    if ($(window).scrollTop() < 1) { 
+	        $("nav").css('background-color', 'transparent');
+            $("nav a").css('color', '#fff');
+			$("i.icons-small").css('color', '#fff');
+			$("nav").css('border-bottom', 'none');
+    }
+    else{
+       $("nav").css('background-color', '#fff');
+       $("nav a").css('color', '#3e4444');
+	   $("i.icons-small").css('color', '#3e4444');
+	   $("nav").css('border-bottom', '1px solid #ebeced');
+    }
+  });
 });
 
 </script>

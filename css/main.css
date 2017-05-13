@@ -359,7 +359,6 @@ h3{
     background-color: transparent;
     flex-grow: 2;
     flex-shrink: 0;
-    flex-basis: 0;
     padding: 20px;
 }
 
@@ -479,7 +478,6 @@ h2.work{
     background-color:#fff;
 	flex-grow:1;
 	flex-shrink:0;
-	flex-basis: 1px;
 	display:flex;
 	align-items: center;
   	justify-content: center;
@@ -715,6 +713,29 @@ i.icons-small {
     margin: 0 15px 0 0;
     font-family: 'icons';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

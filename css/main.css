@@ -973,22 +973,31 @@ article#work p{
     color: #3e4444;	
 }
 
-
 #thumbnails{
-	background-color:transparent;
-	display: inline-flex;
-  	-webkit-flex-direction: row;
-  	flex-direction: row;
-  	flex-wrap:       wrap;
-	justify-content:center;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
 }
 
 #thumbnail{
- flex-grow: 0;
- flex-shrink: 1;
- margin-top: -7px;	
-		
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 150px; 
+  text-align:center;	
+  padding: .2vw;	
 }
+
+#thumbnail img { 
+  max-width: 100%; 
+  height: auto; 
+}
+
+
 
 .about-left{
     background-color: transparent;
@@ -1544,19 +1553,27 @@ h2.work{
 
 
 #thumbnails{
-	background-color:transparent;
-	display: inline-flex;
-  	-webkit-flex-direction: row;
-  	flex-direction: row;
-  	flex-wrap:       wrap;
-	justify-content:center;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
 }
 
 #thumbnail{
- flex-grow: 0;
- flex-shrink: 1;
- margin-top: -7px;	
-		
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 250px; 
+  text-align:center;	
+  padding: .2vw;	
+}
+
+#thumbnail img { 
+  max-width: 100%; 
+  height: auto; 
 }
 
 #hire{
@@ -1659,22 +1676,6 @@ input{
     border-radius: 20px;
     border: solid 2px #63A008;
 	text-transform:uppercase;
-}
-
-
-article#thumbnails ul {
-	list-style: none;
-    padding:0;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-}
-
-article#thumbnails li{
- 	display: inline-block;
-    margin-top: 4px;
-    vertical-align: top;
-    height: 250px;
 }
 
 	

@@ -217,6 +217,8 @@ b.copyright{
 	font-family:'open sans', sans-serif;
 	font-size:.7em;
 	width:400px;
+	font-weight:500;
+	text-transform: none;
 	}
 	
 
@@ -721,8 +723,9 @@ b.copyright{
 	font-family:'open sans', sans-serif;
 	font-size:.8em;
 	width:400px;
+	font-weight:500;
+	text-transform: none;
 	}
-	
 	
 	#image-info {
     background-color: #fff;

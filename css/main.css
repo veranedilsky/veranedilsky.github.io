@@ -201,14 +201,14 @@ background-color:transparent;}*/
 
 footer{
     height: 30px;
-    color: #fff;
     text-align: center;
-    background: #3e4444;
+    background: #fff;
+	border-top: 1px solid #cccccc;
 	margin-top:50px;
 }
 
 b.copyright{
-	color:white;
+	color:#3e4444;
 	font-family:'open sans', sans-serif;
 	font-size:.7em;
 	width:400px;
@@ -631,7 +631,7 @@ article#icons{
   flex-direction: column;
   flex-wrap: no-wrap;
   background-color:transparent;
-  margin: 100px auto;
+  margin: 80px auto;
   width: 95%;
 }
 
@@ -1251,15 +1251,15 @@ ul.navigation {
 footer{
 	display: flex;
     height: 50px;
-    color: #fff;
+	border-top: 1px solid #cccccc;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: #3e4444;
+    background: #fff;
 }
 
 b.copyright{
-	color:white;
+	color:#3e4444;
 	font-family:'open sans', sans-serif;
 	font-size:.8em;
 	width:400px;

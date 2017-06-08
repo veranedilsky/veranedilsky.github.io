@@ -274,7 +274,7 @@ button{
     font-family: 'open sans';
     width: 135px;
     height: 35px;
-    background-color: #63A008;
+    background-color: #5BBC2E;
     cursor: pointer !important;
     border: none;
     border-radius: 20px;
@@ -387,7 +387,7 @@ h3{
     height: 30px;
     background-color: transparent;
     cursor: pointer !important;
-    border: solid 2px #63A008;
+    border: solid 2px #5BBC2E;
     border-radius: 20px;
 	text-transform:uppercase;
 }
@@ -558,7 +558,7 @@ input{
     cursor: pointer !important;
     background-color: transparent;
     border-radius: 20px;
-    border: solid 2px #63A008;
+    border: solid 2px #5BBC2E;
 	text-transform:uppercase;
 }
 
@@ -582,7 +582,7 @@ article#thumbnails li{
 hr {
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1px;
     max-width: 100px;
@@ -594,7 +594,7 @@ hr.menu {
     height: 2px;
     width: 80px;
     margin: 0;
-    background: #63A008;
+    background: #5BBC2E;
     border: none;
     transition: .3s ease-in-out;
 }
@@ -656,12 +656,12 @@ article#icons{
 	
 
 .fa {
-	color:#63A008;
+	color:#5BBC2E;
 }
 
 .fa-2x {
     font-size: 1.3em;
-	color:#63A008;
+	color:#5BBC2E;
 	margin:5px;
 }	
 	
@@ -699,7 +699,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: #63A008;
+	background: #5BBC2E;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -907,7 +907,7 @@ button{
     font-family: 'open sans';
     width: 135px;
     height: 35px;
-    background-color: #63A008;
+    background-color: #5BBC2E;
     cursor: pointer !important;
     border: none;
     border-radius: 20px;
@@ -1063,7 +1063,7 @@ article#icons{
 hr.contact {
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1px;
     margin: 0 auto;
@@ -1073,7 +1073,7 @@ hr.contact {
 hr {
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1px;
     max-width: 100px;
@@ -1134,7 +1134,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: #63A008;
+	background: #5BBC2E;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -1382,7 +1382,7 @@ hr.social{
 	
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1.5px;
     max-width: 100px;
@@ -1481,7 +1481,7 @@ button{
     font-family: 'open sans';
     width: 135px;
     height: 35px;
-    background-color: #63A008;
+    background-color: #5BBC2E;
     cursor: pointer !important;
     border: none;
     border-radius: 20px;
@@ -1674,7 +1674,7 @@ input{
     cursor: pointer !important;
     background-color: transparent;
     border-radius: 20px;
-    border: solid 2px #63A008;
+    border: solid 2px #5BBC2E;
 	text-transform:uppercase;
 }
 
@@ -1682,7 +1682,7 @@ input{
 hr {
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1px;
     max-width: 100px;
@@ -1693,7 +1693,7 @@ hr {
 hr.contact {
 	display: block;
     width: 50px;
-    color: #63A008;
+    color: #5BBC2E;
     border-style: solid;
     border-width: 1px;
     margin: 0 auto;
@@ -1704,7 +1704,7 @@ hr.menu {
     height: 2px;
     width: 80px;
     margin: 0;
-    background: #63A008;
+    background: #5BBC2E;
     border: none;
     transition: .3s ease-in-out;
 }
@@ -1774,7 +1774,7 @@ article#icons{
 	
 
 .fa {
-	color:#63A008;
+	color:#5BBC2E;
 }
 
 	
@@ -1814,7 +1814,7 @@ i.fa-th{
 
 i.icons{
 	font-family: 'icons';
-	background: #63A008;
+	background: #5BBC2E;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -1841,7 +1841,13 @@ i.icons-small {
 	opacity:0.5;
 }*/
 
-}
+
+
+
+
+
+
+
 
 }
 

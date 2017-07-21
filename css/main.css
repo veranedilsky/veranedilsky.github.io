@@ -1256,6 +1256,8 @@ footer{
     align-items: center;
     justify-content: center;
     background: #fff;
+	width:70%;
+	margin: 0 auto;
 }
 
 b.copyright{
@@ -1524,7 +1526,7 @@ b.icons a{
 
 article#work{
 	height:175px;
-	margin-top: 150px;
+	margin-top: 100px;
 	background-color:transparent;
 	display:flex;
 	align-items: center;
@@ -1566,7 +1568,7 @@ h2.work{
   -webkit-box-flex: auto;
   -ms-flex: auto;
   flex: auto; 
-  width: 250px; 
+  width: 230px; 
   text-align:center;	
   padding: .2vw;	
 }
@@ -1732,7 +1734,7 @@ article#about{
   flex-direction: row;
   flex-wrap: wrap;
   background-color:transparent;
-  margin: 150px auto;
+  margin: 100px auto;
   width: 65%;
 
 }
@@ -1844,7 +1846,10 @@ i.icons-small {
 
 
 
-
+#wrap{
+background-color:#f8fafc;
+padding:1px;
+}
 
 
 

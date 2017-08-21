@@ -21,9 +21,12 @@
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 		
 		
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
 
 		
         <link rel="stylesheet" href="css/normalize.css">
@@ -93,7 +96,7 @@
 <div id="icon">
 
 <i class="icons">B</i>
-<b class="sub">EDUCATION</b>
+<b class="sub">Education</b>
 <p>Three awesome years studying graphic and web design.</p>
 
 </div>
@@ -105,7 +108,7 @@
 <div id="icon">
 
 <i class="icons">C</i>
-<b class="sub">WEB DESIGN</b>
+<b class="sub">Web Design</b>
 <p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
 
 </div>
@@ -117,7 +120,7 @@
 <div id="icon">
 
 <i class="icons">A</i>
-<b class="sub">GRAPHIC DESIGN</b>
+<b class="sub">Graphic Design</b>
 <p>Branding, packaging, editorial, poster design and more.</p>
 
 </div>
@@ -134,7 +137,7 @@
 <div class="about-left">
 
 <div id="resume">
-<h1 class="about">let me tell you a little bit more about myself</h1>
+<h1 class="about">Let me tell you a little bit more about myself</h1>
 </div>
 
 </div>
@@ -159,7 +162,7 @@
 <article id="work">
 
 <div class="work-text" data-aos="fade-right">
-<h2 class="work">Work</h1>
+<span><h2 class="work">Previous Work</h1></span>
 <p class="work">Below you will find a collection of works that I have created either for school projects or for freelance work</p>
 </div>    
 	
@@ -170,18 +173,18 @@
 
 <article id="thumbnails">
 
-<div id="thumbnail"><a href="work.html#1"><img src="thumbs/child-abuse-awareness-poster.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#2"><img src="thumbs/child-abuse-awareness-poster-boy.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#3"><img src="thumbs/harry-potter-typography-poster.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#4"><img src="thumbs/james-brown-cd-booklet.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#6"><img src="thumbs/metamorphosis-book-cover.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#5"><img src="thumbs/soap-packaging.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#7"><img src="thumbs/pdht-annual-graphics-exchibition-poster.png" /></a></div>
-<div id="thumbnail"><a href="work.html#14"><img src="thumbs/pdht-logo.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#10"><img src="thumbs/typography-valentine-pink.png" /></a></div>
-<div id="thumbnail"><a href="work.html#11"><img src="thumbs/wine-bottle-label.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#11"><img src="thumbs/bowling-brochure.jpg" /></a></div>
-<div id="thumbnail"><a href="work.html#11"><img src="thumbs/af-clean-brochure.jpg" /></a></div>
+<div id="thumbnail"><a href="awareness-poster.html"><img src="thumbs/child-abuse-awareness-poster.jpg" /></a></div>
+<div id="thumbnail"><a href="awareness-poster-boy.html"><img src="thumbs/child-abuse-awareness-poster-boy.jpg" /></a></div>
+<div id="thumbnail"><a href="harry-potter-typography.html"><img src="thumbs/harry-potter-typography-poster.jpg" /></a></div>
+<div id="thumbnail"><a href="cd-booklet.html"><img src="thumbs/james-brown-cd-booklet.jpg" /></a></div>
+<div id="thumbnail"><a href="book-cover.html"><img src="thumbs/metamorphosis-book-cover.jpg" /></a></div>
+<div id="thumbnail"><a href="soap-packaging.html"><img src="thumbs/soap-packaging.jpg" /></a></div>
+<div id="thumbnail"><a href="pdht-poster.html"><img src="thumbs/pdht-annual-graphics-exchibition-poster.png" /></a></div>
+<div id="thumbnail"><a href="pdht-logo.html"><img src="thumbs/pdht-logo.png" /></a></div>
+<div id="thumbnail"><a href="typography-valentine.html"><img src="thumbs/typography-valentine-pink.png" /></a></div>
+<div id="thumbnail"><a href="wine-bottle.html"><img src="thumbs/wine-bottle-label.jpg" /></a></div>
+<div id="thumbnail"><a href="bowling-brochure.html"><img src="thumbs/bowling-brochure.jpg" /></a></div>
+<div id="thumbnail"><a href="af-clean-brochure.html"><img src="thumbs/af-clean-brochure.jpg" /></a></div>
 
 </article>
 
@@ -274,12 +277,7 @@
 						$(".navigation").css('display' , 'none');	
 					}
 				} 
-</script>
-				
-				
-				
-				
-				
+</script>				
 				
 				
 <script type="text/javascript">
@@ -311,7 +309,33 @@ $(window).scroll(function(){
 
 		  </script>	  
 		  
+	<script type="text/javascript">	  
+		 $(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+		  
   
+		  </script>
 
     </body>
 </html>

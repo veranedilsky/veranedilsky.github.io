@@ -218,9 +218,9 @@ b.copyright{
 b.sub{
 	text-align: center;
     font-family:'open sans', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #3e4444;
 }	
 	
@@ -315,11 +315,11 @@ a{
 
 
 p{
-	font-family: 'roboto', sans-serif;
+font-family: 'roboto', sans-serif;
     font-size: .9em;
     text-align: center;
-	margin: 15px 0;
-	color:#3e4444;
+    margin: 15px 0;
+    color: #3e4444;
 }
 
 
@@ -426,13 +426,10 @@ b.icons a{
 }
 
 article#work{
-display:none;
-/*	height:175px;
-	margin-top: 50px;
-	background-color:transparent;
+	margin: 90px 0;
 	display:flex;
 	align-items: center;
-  	justify-content: center;*/
+  	justify-content: center;
 }
 
 
@@ -449,21 +446,19 @@ article#work p{
 h2.work{
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.2em;
-    font-weight: 700;
+    font-size: 1.3em;
+    font-weight: 900;
     color: #3e4444;
     font-family: 'open sans', sans-serif;
 }
 
 
 #thumbnails{
-/*	background-color:transparent;
-	display: inline-flex;
+	display: flex;
   	-webkit-flex-direction: row;
   	flex-direction: row;
   	flex-wrap:       wrap;
-	justify-content:center;*/
-	display:none;
+	justify-content:center;
 }
 
 #thumbnail{
@@ -613,15 +608,7 @@ hr.menu {
 }
 
 article#about{
-  display: -webkit-inline-flex; /* Safari */
-  display:flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color:transparent;
-  margin: 100px auto;
-  width: 100%;
-
+display:none;
 }
 
 article#icons{
@@ -631,13 +618,13 @@ article#icons{
   flex-direction: column;
   flex-wrap: no-wrap;
   background-color:transparent;
-  margin: 80px auto;
+  margin: 30px auto;
   width: 95%;
 }
 
 	
 #column {
-  margin: 10px;
+  margin: 30px 0;
   flex-grow: 1;
   flex-shrink: 0;
   text-align: center;
@@ -688,7 +675,7 @@ article#icons{
 #contact-info{
 	
 	display: block;
-    margin-top: 70px;
+    margin-top: 90px;
 	
 }
 
@@ -698,12 +685,12 @@ i.fa-th{
 
 
 i.icons{
-	font-family: 'icons';
-	background: #5BBC2E;
+    font-family: 'icons';
+    background: #5BBC2E;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
-	font-size:5em;	
+    font-size: 4em;	
 }
 
 
@@ -1533,6 +1520,7 @@ article#work{
 	display:flex;
 	align-items: center;
   	justify-content: center;
+	margin:0;
 }
 
 

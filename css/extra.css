@@ -325,7 +325,7 @@ h1.about{
     font-size: 2em;
     color: #3e4444;
     font-weight: 600;
-    overflow: hidden;
+    overflow: visible;
     width: 100%;
     margin: 0 auto;
 }
@@ -545,7 +545,7 @@ h1.about{
     font-weight: 600;
     color: #3e4444;
     font-family:'Montserrat', sans-serif;
-	overflow:hidden;
+	overflow:visible;
 	width:500px;
 }
 	
@@ -742,7 +742,7 @@ h1.about{
     font-weight: 600;
     color: #3e4444;
     font-family:'Montserrat', sans-serif;
-	overflow:hidden;
+	overflow:visible;
 	width:500px;
 }
 

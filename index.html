@@ -17,17 +17,9 @@
 <meta name="theme-color" content="#ffffff">
 
 
+<link href="https://fonts.googleapis.com/css?family=Poppins:500,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Spectral:200,300,500" rel="stylesheet">
 
-		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-		
-		
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-
-
-
-		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -36,32 +28,6 @@
     
     <body>
 	
-	
-	
-
-<header data-parallax="scroll" data-image-src="img/vsco2.jpg">
-
-
-<!--#5a1aad-->
-
-<div class="header-text">
-   <h1>Hi there.</h1>
-      <p>My name is Vera Nedilsky and I'm a graphic designer from Montréal.</p>
-</div>     
-
-  
-<form method="get" action="veranedilsky-resumeGD.pdf">
-<button type="submit">Download Resume</button>
-</form>
-
-
-</header>
-
-
-
-
-
-
 
 <nav>
 
@@ -88,82 +54,56 @@
 			
 		</nav>
 
+<header>
 
+<div class="header-text">
+   <h1>Portfolio</h1>
+      <p>My name is Vera Nedilsky and I'm a graphic designer from Montréal.</p>
+</div>     
 
-<article id="icons">
-<div id="column">
-<div id="icon">
-
-<span class="icon-mortar-board">&#xe907;</span>
-<b class="sub">Education</b>
-<p>Three awesome years studying graphic and web design.</p>
-
-</div>
-</div>
+</header>
 
 
 
-<div id="column">
-<div id="icon">
-
-<span class="icon-device-desktop">&#xe90b;</span>
-<b class="sub">Web Design</b>
-<p>HTML, CSS, PHP and JavaScript. Built for mobile-first.</p>
-
-</div>
-</div>
 
 
 
-<div id="column">
-<div id="icon">
-
-<span class="icon-brush">&#xe914;</span>
-<b class="sub">Graphic Design</b>
-<p>Branding, packaging, editorial, poster design and more.</p>
-
-</div>
-</div>
-
-
-</article>
 
 
 
-<div id="wrap">
-<article id="about">
-
-<div class="about-left">
-
-<div id="resume">
-<h1 class="about">Let me tell you a little bit more about myself</h1>
-</div>
-
-</div>
 
 
-<div class="about-right">
-		<hr/>
+<div class="content-full">
+
+<div class="intro">
+<h1 class="about">Let's talk about me</h1>
         <p>I’ve always had a creative side to me. As a kid I loved to draw, do arts and crafts, 
 		make up outrageous imagionary stories... over time I started to think of better ways to put 
 		this creativity to use. </p><p>I started to research web design (what the heck is this HTML and CSS nonesense 
 		they speak of?) and the more I learned, the more I became interested. I started to look into design, 
 		playing with colours and fonts, trying to find ways to use this new skill. When it came time to go to 
 		College and my dad suggested the Graphic Design program, it was a no brainer. Here I am today, this 
-		passion for creativity only grows more and more. Allow me to share my imagination and creativity with you.</p>
-		</div>  
-		  
-</article>
+		passion for creativity only grows more and more. Allow me to share my imagination and creativity with you.</p>		  
 </div>
+
+
+</div>
+
+
+
 
 
 
 <article id="work">
 
-<div class="work-text" data-aos="fade-right">
-<span><h2 class="work">Previous Work</h1></span>
+<h2 class="work">Previous Work</h2>
 <p class="work">Below you will find a collection of works that I have created either for school projects or for freelance work</p>
-</div>    
+
+  
+<form method="get" action="veranedilsky-resumeGD.pdf">
+<button type="submit">Resume</button>
+</form>
+   
 	
 </article>
 
@@ -230,7 +170,7 @@
 
         
 <footer>
-<b class="copyright">© 2017 Vera Nedilsky. All Rights Reserved.</b>
+<b class="copyright">© 2018 Vera Nedilsky</b>
 </footer>        
    
 
@@ -276,7 +216,7 @@
 $(function(){
   $(window).on('load scroll resize orientationchange', function () {
     if ($(window).scrollTop() < 1) { 
-	        $("nav").css('background-color', 'transparent');
+	        $("nav").css('background-color', '#3e4444');
             $("nav a").css('color', '#fff');
 			$("i.icons-small").css('color', '#fff');
 			$("nav").css('border-bottom', 'none');
@@ -295,7 +235,7 @@ $(function(){
 <script type="text/javascript">
 				  
 $(window).scroll(function(){
-    $("header h1, header p, button").css("opacity", 1 - $(window).scrollTop() / 550);
+    $("header h1, header p").css("opacity", 1 - $(window).scrollTop() / 550);
   });
 
 		  </script>	  

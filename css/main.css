@@ -184,9 +184,6 @@ ul.navigation {
 }
 
 
-
-
-
 footer{
 	display: flex;
     height: 50px;
@@ -302,6 +299,17 @@ button{
 }
 
 
+b{ 
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 500px;
+    margin: 15px auto;
+    font-weight: 300;
+    color: #3e4444;
+}
+
 a{
 	color:#FFE164;
 	text-decoration:none;	
@@ -321,28 +329,32 @@ p{
 h1.about{
 	text-align: left;
     text-transform: none;
-    font-family:'Spectral', serif;
+    font-family:'Spectral', sans-serif;
     font-size: 1.6em;
     color: #3e4444;
     font-weight: 500;
 }
+/*
+h1.about::before{
+    content: '';
+    position: absolute;
+    width: 102px;
+    height: 2px;
+    background: #a6defd;
+    left: 0;
+    bottom: 0;
+}*/
 
-
-b{ 
-	color:#5BBC2E;
-	font-size:1.3em;
-}
 
 h3{
-	margin: 10px 0 35px;
+	margin: 0 0 35px;
     text-align: center;
     text-transform: none;
-    font-size: 2em;
+    font-size: 1.6em;
     color: #3e4444;
     font-weight: 500;
     font-family:'spectral', sans-serif;
 }
-
 
 #contact p{
     font-family:'Montserrat', sans-serif;
@@ -428,6 +440,34 @@ h2.work{
 }
 
 
+.about-left{
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center;
+width:100%;
+text-align:center;
+margin-top: 55px;
+border:none;
+}
+
+.about-right{
+margin:0 auto;
+padding: 100px 0;
+width:85%;
+text-align:left;
+}
+
+
+.about-right p{
+    font-family: 'spectral', sans-serif;
+    font-size: 1em;
+	font-weight:500;
+	margin: 55px auto;
+    text-align: left;
+}
+
+
+
 #thumbnails{
 	display: flex;
   	-webkit-flex-direction: row;
@@ -477,7 +517,7 @@ h2.work{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 50px 0 50px;
+    padding: 50px 0;
 }
 
 
@@ -640,32 +680,7 @@ article#icons{
 	
 
 .fa {
-	color:#5BBC2E;
-}
-
-.fa-2x {
-    font-size: 1.3em;
-	color:#5BBC2E;
-	margin:5px;
-}	
-	
-.fa-gradient {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
-}
-.fa-gradient2 {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
-}
-.fa-gradient3 {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
+	color:#3e4444;
 }
 
 
@@ -895,26 +910,20 @@ display:none;
 }
 
 
-
-.fa-2x {
-    font-size: 1.3em;
-	color:#fff;
-	margin:0 10px 0 0;
-}
-
 h1.about{
 	text-align: left;
     text-transform: none;
     font-family:'Spectral', serif;
-    font-size: 1.2em;
+    font-size: 2em;
+	margin-bottom:35px;
     color: #3e4444;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 h2.work{
     text-align: center;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 300;
     color: #3e4444;
     font-family: 'spectral', sans-serif;
 }
@@ -1005,11 +1014,40 @@ article#icons{
   	justify-content: center;
 }
 
+
+
+.about-left{
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center;
+width:100%;
+text-align:center;
+margin-top: 70px;
+border:15px solid #fff;
+}
+
+.about-right{
+margin:0 auto;
+padding: 100px 0;
+width:500px;
+text-align:left;
+}
+
+
+.about-right p{
+    font-family: 'spectral', sans-serif;
+    font-size: 1em;
+	font-weight:500;
+	margin: 55px auto;
+    text-align: left;
+}
+
+
 .center500{
     width: 500px;
     margin: 0 auto;
     text-align: center;
-	padding:150px 0 100px;
+	padding:100px 0;
 }
 
 
@@ -1333,21 +1371,20 @@ h1.about{
     font-family:'Spectral', serif;
     font-size: 3em;
     color: #3e4444;
-    font-weight: 500;
+    font-weight: 300;
+	margin-bottom: 35px;
+    font-size: 2.5em;
+    line-height: 1.2;
 }
 
-b{ 
-	color:#5BBC2E;
-	font-size:1.3em;
-}
 
 h3{
-	margin: 10px 0 35px;
+	margin: 0 0 35px;
     text-align: center;
     text-transform: none;
     font-size: 2em;
     color: #3e4444;
-    font-weight: 500;
+    font-weight: 300;
     font-family:'spectral', sans-serif;
 }
 
@@ -1431,8 +1468,8 @@ article#work p{
 
 h2.work{
     text-align: center;
-    font-size: 3em;
-    font-weight: 500;
+    font-size: 2.5em;
+    font-weight: 300;
     color: #3e4444;
     font-family: 'spectral', sans-serif;
 }
@@ -1499,7 +1536,7 @@ h2.work{
     width: 500px;
     margin: 0 auto;
     text-align: center;
-	padding:150px 0 100px;
+	padding:100px 0;
 }
 
 .resume{
@@ -1676,30 +1713,6 @@ display: -webkit-inline-flex;
 }		
 	
 
-.fa {
-	color:#5BBC2E;
-}
-
-	
-.fa-gradient {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
-}
-.fa-gradient2 {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
-}
-.fa-gradient3 {
-	background: -webkit-gradient(linear, left top, right bottom, from(#cc208e), to(#6713d2));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom:10px;
-}
-
 
 #contact-info{
 	
@@ -1762,12 +1775,32 @@ padding:1px;
 
 
 
-h1.about{
-	margin-bottom: 35px;
-    font-size: 2.5em;
-    line-height: 1.2;
+
+.about-left{
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center;
+width:100%;
+text-align:center;
+margin-top: 70px;
+border:15px solid #fff;
 }
 
+.about-right{
+margin:0 auto;
+padding: 100px 0;
+width:500px;
+text-align:left;
+}
+
+
+.about-right p{
+    font-family: 'spectral', sans-serif;
+    font-size: 1em;
+	font-weight:500;
+	margin: 55px auto;
+    text-align: left;
+}
 
 
 

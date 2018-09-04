@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
     <head>
+
     	<meta name="theme-color" content="#3e4444">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,16 +17,11 @@
 <meta name="theme-color" content="#ffffff">
 
 
+<link href="https://fonts.googleapis.com/css?family=Poppins:500,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Spectral:200,300,500" rel="stylesheet">
 
-		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-		
-		
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-		
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/extra.css">
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         
     </head>
@@ -33,9 +29,8 @@
     <body>
 	
 
-
-
 <nav>
+
 
     <div class="social">
 
@@ -67,8 +62,6 @@
 
 
 
-
-
 <div class="about-left" style="background-color:#ededed">
 <img src="hires/typography-valentine-pink.png">
 </div>
@@ -82,10 +75,8 @@
 
 
 
-
-        
 <footer>
-<b class="copyright">© 2017 Vera Nedilsky. All Rights Reserved.</b>
+<b class="copyright">© 2018 Vera Nedilsky</b>
 </footer>    
         
         
@@ -112,7 +103,26 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
         
-       
+       <script type="text/javascript">
+
+$(function(){
+  $(window).on('load scroll resize orientationchange', function () {
+    if ($(window).scrollTop() < 1) { 
+	        $("nav").css('background-color', '#3e4444');
+            $("nav a").css('color', '#fff');
+			$("i.icons-small").css('color', '#fff');
+			$("nav").css('border-bottom', 'none');
+    }
+    else{
+       $("nav").css('background-color', '#fff');
+       $("nav a").css('color', '#3e4444');
+	   $("i.icons-small").css('color', '#3e4444');
+	   $("nav").css('border-bottom', '1px solid #ebeced');
+    }
+  });
+});
+
+</script>  
 
     </body>
 </html>

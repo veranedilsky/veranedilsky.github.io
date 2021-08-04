@@ -12,6 +12,10 @@
 
 <link rel="stylesheet" href="style.css">
 
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:500,800,900" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
 </head>
 
 
@@ -19,10 +23,8 @@
 <body>
 
 <ul class="navigation">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Products</a></li>
-  <li><a href="#">Contact</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="#container">Contact</a></li>
 </ul>
 
 
@@ -31,7 +33,7 @@
 
 <section id="intro">
 <h2 class="work">Projects</h2>
-<p class="work">Below you will find a collection of works that I have created either for school projects or for freelance work</p>
+<p class="work">Below you will find a collection of works that I have created for school projects and freelance work.</p>
 </section>
 
 
@@ -39,20 +41,148 @@
 
 <section id="thumbnails">
 
-<div id="thumbnail"><a href="awareness-poster.html"><img src="thumbs/child-abuse-awareness-poster.jpg" /></a></div>
-<div id="thumbnail"><a href="awareness-poster-boy.html"><img src="thumbs/child-abuse-awareness-poster-boy.jpg" /></a></div>
-<div id="thumbnail"><a href="harry-potter-typography.html"><img src="thumbs/harry-potter-typography-poster.jpg" /></a></div>
-<div id="thumbnail"><a href="cd-booklet.html"><img src="thumbs/james-brown-cd-booklet.jpg" /></a></div>
-<div id="thumbnail"><a href="book-cover.html"><img src="thumbs/metamorphosis-book-cover.jpg" /></a></div>
-<div id="thumbnail"><a href="soap-packaging.html"><img src="thumbs/soap-packaging.jpg" /></a></div>
-<div id="thumbnail"><a href="pdht-poster.html"><img src="thumbs/pdht-annual-graphics-exchibition-poster.png" /></a></div>
-<div id="thumbnail"><a href="pdht-logo.html"><img src="thumbs/pdht-logo.png" /></a></div>
-<div id="thumbnail"><a href="typography-valentine.html"><img src="thumbs/typography-valentine-pink.png" /></a></div>
-<div id="thumbnail"><a href="wine-bottle.html"><img src="thumbs/wine-bottle-label.jpg" /></a></div>
-<div id="thumbnail"><a href="bowling-brochure.html"><img src="thumbs/bowling-brochure.jpg" /></a></div>
-<div id="thumbnail"><a href="af-clean-brochure.html"><img src="thumbs/af-clean-brochure.jpg" /></a></div>
+
+
+
+
+
+
+
+
+<!-- Images used to open the lightbox -->
+<div class="thumbnails">
+
+  <div class="thumbnail">
+    <img src="thumbs/child-abuse-awareness-poster.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="thumbs/child-abuse-awareness-poster-boy.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="thumbs/harry-potter-typography-poster.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="thumbs/james-brown-cd-booklet.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/metamorphosis-book-cover.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/soap-packaging.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/pdht-annual-graphics-exchibition-poster.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/pdht-logo.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/typography-valentine-pink.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/wine-bottle-label.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/bowling-brochure.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+    <div class="column">
+    <img src="thumbs/af-clean-brochure.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+  
+</div>
+
+
+
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides" style="background-color:#e0e0e0">
+      <img class="hires" src="hires/child-abuse-awareness-poster.jpg">
+    </div>
+
+    <div class="mySlides" style="background-color:#e0e0e0">
+      <img class="hires" src="hires/child-abuse-awareness-poster-boy.jpg">
+    </div>
+
+    <div class="mySlides" style="background-color:#000000">
+      <img class="hires" src="hires/harry-potter-typography-poster.png">
+    </div>
+
+    <div class="mySlides" style="background-color:#ededed">
+      <img class="hires" src="hires/james-brown-cd-cover.jpg">
+    </div>
+	
+	   <div class="mySlides" style="background-color:#ff967d">
+      <img class="hires" src="hires/hardcover-book.jpg">
+    </div>
+	
+	   <div class="mySlides" style="background-color:#dfd2fe">
+      <img class="hires" src="hires/soap-packaging.jpg">
+    </div>
+	
+	   <div class="mySlides" style="background-color:#f9dd5a">
+      <img class="hires" src="hires/pdht-annual-graphics-exchibition-poster.png">
+    </div>
+	
+	   <div class="mySlides" style="background-color:#ededed">
+      <img class="hires" src="hires/pdht-logo.png">
+    </div>
+	
+	   <div class="mySlides" style="background-color:#ededed">
+      <img class="hires" src="hires/typography-valentine-pink.png">
+    </div>
+	
+		   <div class="mySlides" style="background-color:#e3e3e3">
+      <img class="hires" src="hires/wine-bottle-label.jpg">
+    </div>
+	
+		   <div class="mySlides" style="background-color:#aed43a">
+      <img class="hires" src="hires/bowling-brochure.jpg">
+    </div>
+	
+		   <div class="mySlides" style="background-color:#c0cdd1">
+      <img class="hires" src="hires/af-clean-brochure.jpg">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+<!--     <div class="caption-container">
+      <p id="caption">hegerert</p>
+    </div>
+ -->
+    <!-- Thumbnail image controls -->
+<!--     <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div> -->
+	
+	
+	
+  </div>
+</div>
+
 
 </section>
+
+
 
 
 
@@ -63,13 +193,15 @@
 
 
 <div class="container">
-  <form action="/action_page.php">
+
+
+  <form>
   
-    <label for="fname">Name</label>
+    <i class="fa fa-user" aria-hidden="true"></i> <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Enter your name">
 
 
-    <label for="subject">Comments</label>
+    <i class="fa fa-commenting-o" aria-hidden="true"></i> <label for="subject">Comments</label>
     <textarea id="subject" name="subject" placeholder="Leave a comment" style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
@@ -94,6 +226,58 @@
 <footer>
 <b class="copyright">© 2018 Vera Nedilsky</b>
 </footer>    
+
+
+
+
+
+
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
 
 
   

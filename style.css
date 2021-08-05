@@ -46,7 +46,6 @@ img{display:block;}
 
 
 
-
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -57,9 +56,6 @@ img{display:block;}
   margin:0 60px; 
   background: #fff;
   border-bottom:1px solid #ccc;
-  
-    position: sticky;
-    top: 0;
 }
 
 .navigation a {
@@ -123,7 +119,7 @@ p.work{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	padding-bottom:150px;
+	padding: 0 15px 150px;
 }
 
 
@@ -177,9 +173,8 @@ label{
 }
 
 .container {
-  border-radius: 5px;
   background-color: #f2f2f2;
-  padding:60px 0;
+  padding:60px 15px;
   display: flex;
   justify-content: center;
 }
@@ -371,5 +366,21 @@ background-color: rgba(0,0,0,0.23);
     color: #1a1a1a;
 }
 		
+		
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  align-items:center;
+  height:70px;
+  margin:0; 
+  background: #fff;
+  border-bottom:1px solid #ccc;
+  padding: 0 60px;
+  
+  position: sticky;
+  top: 0;
+}
 	
 }

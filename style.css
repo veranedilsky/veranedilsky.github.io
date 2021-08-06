@@ -122,7 +122,6 @@ img{display:block;}
 
 @media all and (max-width: 600px) {
   .navigation {
-    flex-flow: column wrap;
     padding: 0;
   }
   .navigation a { 
@@ -132,6 +131,12 @@ img{display:block;}
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+  
+  
+  .logo {
+    margin: 0 0 0 10px;
+	font-size: 1em;
+	}
 }
 
 
@@ -215,6 +220,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 36px;
   resize: vertical;
+  font-family: 'poppins', sans-serif;
 }
 
 input[type=submit] {
@@ -244,11 +250,17 @@ label{
     color: #1a1a1a;
 }
 
-.container {
+#container {
   background-color: #f2f2f2;
   padding:60px 15px;
   display: flex;
   justify-content: center;
+}
+
+
+#container p {
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
 }
 
 .fa {

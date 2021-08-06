@@ -216,22 +216,26 @@
 
 <div id="container">
 
-  <form action=”mailto:veranedilsky@hotmail.com”
-	method=”POST”
-	enctype=”multipart/form-data”
-	name=”EmailForm”> 
+  <form   
+  action="https://formspree.io/f/xpzkybpj"
+  method="POST"> 
   
      <h3>Contact me</h3>
 	  <p>Interested in working together? You can contact me by emailing nedilskyvera@gmail.com or by using the form below.</p>
 
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
   
-  
-    <i class="fa fa-user" aria-hidden="true"></i> <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+    <i class="fa fa-user" aria-hidden="true"></i> <label for="fname">Email</label>
+    <input type="email" id="fname" name="firstname" placeholder="Enter your email">
 
 
-    <i class="fa fa-commenting-o" aria-hidden="true"></i> <label for="subject">Comments</label>
-    <textarea id="subject" name="subject" placeholder="Leave a comment" style="height:200px"></textarea>
+
+	<i class="fa fa-commenting-o" aria-hidden="true"></i> <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Leave your message" style="height:200px" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+	
+	
 
     <input type="submit" value="Submit">
   </form>

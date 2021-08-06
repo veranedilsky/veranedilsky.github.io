@@ -139,7 +139,7 @@ img{
 }
 
 .navigation a:hover {
-    background: #00ace6;
+    background: #FFE164;
 }
 
 
@@ -278,7 +278,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #fff;
 }
 
 
@@ -507,5 +507,13 @@ background-color: rgba(0,0,0,0.23);
   position: sticky;
   top: 0;
 }
+
+
+
+img{display:block;
+width:auto;
+max-height:650px;
+}
+
 	
 }
